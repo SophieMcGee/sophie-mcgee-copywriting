@@ -97,6 +97,7 @@ main {
     background-color: #060606;
     /* Takes up any surplus space, doesn't shrink */
     flex: 1 0 auto; 
+    margin-top: 110px;
 }
 
 /*Footer Section*/
