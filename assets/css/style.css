@@ -29,7 +29,7 @@ header {
     width: 100px;
     height: 100px;
     max-width: 100%;
-    margin-right: 40px;
+    margin-right: 80px;
 }
 /*Ensure image stays inside the header container*/
 .logo img {
