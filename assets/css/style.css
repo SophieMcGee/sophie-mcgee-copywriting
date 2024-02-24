@@ -11,7 +11,7 @@ ol {
 
 /*Asterisk wildcard selector to override the automatic browser styles*/
 * {
-    padding: 0;
+    padding: 0;  
     margin: 0;
     box-sizing: border-box;
 }
@@ -107,14 +107,15 @@ main {
 footer {
     background-color: #676b40;
     height: 894px;
+    position: relative;
 }
 
 #social-media-icons {
     display: flex;
     list-style-type: none;
     margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    position: absolute;
+    bottom: 40px;
 }
 
 #social-media-icons i {
@@ -172,6 +173,7 @@ footer {
         justify-content: flex-end;
         margin-top: 20px;
         list-style-type: none;
+        margin-right: 20px;
     }
 
     footer {
@@ -188,4 +190,8 @@ footer {
     footer {
         height: 559px;
     }
+
+    #social-media-icons {
+        margin-right: 20px;
+        right: 0;
 }
