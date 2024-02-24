@@ -33,6 +33,9 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -73,6 +76,11 @@ nav {
     left: 0;
     padding: 0 1rem;
     display: none;
+}
+
+/*Burger Menu Toggle*/
+#burger-menu:checked~nav {
+    display: block;
 }
 
 /*Main Section*/
