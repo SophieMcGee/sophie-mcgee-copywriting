@@ -76,7 +76,7 @@ nav {
     left: 0;
     padding: 0 1rem;
     display: none;
-    top: 100%
+    top: 100%;
 }
 
 /*Burger Menu Toggle*/
@@ -109,7 +109,7 @@ footer {
 @media screen and (min-width: 768px) {
     /*Header Section*/
     nav {
-        display: block;
+        display: none;
         position: relative;
         width: fit-content;
         padding-right: 1rem;
