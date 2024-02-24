@@ -1,6 +1,13 @@
 /*Import Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* CSS Reset for List Styles */
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 /*Asterisk wildcard selector to override the automatic browser styles*/
 *{
     padding: 0;
@@ -37,6 +44,7 @@ header a {
 
 #menu {
     list-style-type: none;
+    padding: 0;
 }
 
 .active {
@@ -55,6 +63,11 @@ header a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/*Styles for the burger menu in nav bar*/
+nav {
+    position: absolute;
 }
 
 /*Main Section*/
