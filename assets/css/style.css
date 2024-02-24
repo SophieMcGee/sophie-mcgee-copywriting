@@ -2,14 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* CSS Reset for List Styles */
-ul, ol {
+ul,
+ol {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
 /*Asterisk wildcard selector to override the automatic browser styles*/
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -61,6 +62,7 @@ header a {
     max-width: 100%;
     margin-right: 80px;
 }
+
 /*Ensure image stays inside the header container*/
 .logo img {
     width: 100%;
@@ -86,7 +88,7 @@ nav {
 
 #burger-menu {
     display: none;
-} 
+}
 
 .burger-menu-label {
     font-size: 2rem;
@@ -96,7 +98,7 @@ nav {
 main {
     background-color: #060606;
     /* Takes up any surplus space, doesn't shrink */
-    flex: 1 0 auto; 
+    flex: 1 0 auto;
     margin-top: 110px;
 }
 
@@ -107,9 +109,10 @@ footer {
 
 /*Media Query for screens larger than a tablet - 768px and above*/
 @media screen and (min-width: 768px) {
+
     /*Header Section*/
     nav {
-        display: none;
+        display: block;
         position: relative;
         width: fit-content;
         padding-right: 1rem;
@@ -119,7 +122,18 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1.5rem;
+    }
+
+    .burger-menu-label {
+        display: none;
+    }
+}
+
+/*Media Query for large screens (laptops & desktops - 992px and above*/
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #060606;
     }
 }
