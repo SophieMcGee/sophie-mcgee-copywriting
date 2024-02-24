@@ -116,6 +116,60 @@ footer {
     margin-left: 10px;
 }
 
+#social-media-icons li {
+    margin-right: 15px;
+}
+
+/*Media Query for screens larger than a tablet - 768px and above*/
+@media screen and (min-width: 768px) {
+
+    /*Header Section*/
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1.5rem;
+    }
+
+    .burger-menu-label {
+        display: none;
+    }
+}
+
+/*Media Query for large screens (laptops & desktops - 992px and above*/
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #060606;
+    }
+
+    #social-media-icons {
+        display: flex;
+        text-align: center;
+        justify-content: flex-end;
+        margin-top: 20px; 
+
+    }
+}
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+    color: #060606;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end
+    margin-top: 20px;
+}
+
+#
+
 /*Media Query for screens larger than a tablet - 768px and above*/
 @media screen and (min-width: 768px) {
 
