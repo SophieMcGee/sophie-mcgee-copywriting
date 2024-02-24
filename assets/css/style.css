@@ -28,6 +28,13 @@ header {
     width: 100%;
 }
 
+header a {
+    text-decoration: none;
+    color: #060606;
+    font-weight: 600;
+
+}
+
 /*Adjust size of logo*/
 .logo {
     width: 100px;
