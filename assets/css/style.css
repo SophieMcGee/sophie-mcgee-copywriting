@@ -111,14 +111,16 @@ footer {
 #social-media-icons {
     display: flex;
     list-style-type: none;
-    padding: 0;
-    font-size: 20px;
-    color: #060606;
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+#social-media-icons i {
+    padding: 10%;
+    font-size: 30px;
+    color: #060606;
+}
 #social-media-icons li {
     margin-right: 15px;
 }
@@ -164,3 +166,4 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #060606;
     }
+}
