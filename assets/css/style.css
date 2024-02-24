@@ -104,3 +104,22 @@ main {
 footer {
     background-color: #676b40;
 }
+
+/*Media Query for screens larger than a tablet - 768px and above*/
+@media screen and (min-width: 768px) {
+    /*Header Section*/
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1.5rem;
+    }
+}
