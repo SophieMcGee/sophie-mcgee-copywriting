@@ -68,6 +68,11 @@ header a {
 /*Styles for the burger menu in nav bar*/
 nav {
     position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
 }
 
 /*Main Section*/
