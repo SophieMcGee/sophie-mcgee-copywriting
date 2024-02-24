@@ -76,11 +76,20 @@ nav {
     left: 0;
     padding: 0 1rem;
     display: none;
+    top: 100%
 }
 
 /*Burger Menu Toggle*/
 #burger-menu:checked~nav {
     display: block;
+}
+
+#burger-menu {
+    display: none;
+} 
+
+.burger-menu-label {
+    font-size: 2rem;
 }
 
 /*Main Section*/
