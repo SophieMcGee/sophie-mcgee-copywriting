@@ -35,6 +35,10 @@ header a {
 
 }
 
+#menu {
+    list-style-type: none;
+}
+
 /*Adjust size of logo*/
 .logo {
     width: 100px;
