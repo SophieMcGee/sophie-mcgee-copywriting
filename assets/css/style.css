@@ -11,7 +11,7 @@ ol {
 
 /*Asterisk wildcard selector to override the automatic browser styles*/
 * {
-    padding: 0;  
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -129,7 +129,7 @@ footer {
 }
 
 /*Styling for contact form header*/
-.contact-header h2 {
+.contact-header {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     font-weight: 50;
@@ -153,19 +153,41 @@ footer {
 #contact form {
     display: flex;
     flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.form-input {
-
+#contact-form label {
+    font-family: 'Montserrat', sans-serif;
+    color: #060606;
 }
 
-.right-section-form {
+#contact-form .form-input {
+    font-family: 'Montserrat', sans-serif;
+  color: #060606;
+  background-color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    box-sizing: border-box;
+}
+
+#contact-form .right-section-form {
     display: flex;
     flex-direction: column;
 }
 
-.contact-button {
+#contact-form textarea {
+    resize: vertical;
+}
 
+#contact-form .contact-button {
+background-color: #e7b5ac;
+color: #060606;
+border: none;
+padding: 10px;
+cursor: pointer;
 }
 
 /*Media Query for screens larger than a tablet - 768px and above*/
@@ -204,6 +226,21 @@ footer {
     footer {
         height: 559px;
     }
+
+    /*Styling for contact form*/
+    .contact-left {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    #contact-form .form-input{
+width: 48%;
+    }
+
+    #contact-form .right-section-form{
+        width: 48%;
+            }
 }
 
 /*Media Query for large screens (laptops & desktops - 992px and above*/
@@ -219,5 +256,5 @@ footer {
     #social-media-icons {
         margin-right: 20px;
         right: 0;
-}
+    }
 }
