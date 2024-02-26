@@ -146,7 +146,7 @@ footer {
 
 /*Styling for contact form*/
 .contact-left {
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
 }
@@ -183,9 +183,12 @@ footer {
     border-radius: 9px;
 }
 
+#contact-form .form-input {
+    width: 70%;
+}
+
 #contact-form .right-section-form {
-    display: flex;
-    flex-direction: column;
+    width: 70%;
 }
 
 #contact-form textarea {
@@ -240,22 +243,6 @@ footer {
         height: 559px;
     }
 
-    /*Styling for contact form*/
-    .contact-left {
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-between;
-    }
-
-    #contact-form .form-input {
-        width: 48%;
-    }
-
-    #contact-form .right-section-form {
-        width: 48%;
-    }
-
-}
 
 /*Media Query for large screens (laptops & desktops - 992px and above*/
 @media screen and (min-width: 992px) {
