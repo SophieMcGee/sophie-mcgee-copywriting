@@ -132,7 +132,7 @@ footer {
 .contact-header {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    font-weight: 50;
+    font-weight: 100;
     font-size: 18px;
     color: #ffffff;
     margin: 40px 40px 0;
@@ -161,6 +161,8 @@ footer {
 #contact-form label {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
+    font-weight: 50;
+    font-size: 14px;
 }
 
 #contact-form .form-input {
@@ -191,6 +193,7 @@ footer {
     padding: 10px;
     cursor: pointer;
 }
+
 
 /*Media Query for screens larger than a tablet - 768px and above*/
 @media screen and (min-width: 768px) {
@@ -243,6 +246,7 @@ footer {
     #contact-form .right-section-form {
         width: 48%;
     }
+    
 }
 
 /*Media Query for large screens (laptops & desktops - 992px and above*/
