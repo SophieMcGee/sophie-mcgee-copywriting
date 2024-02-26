@@ -156,6 +156,12 @@ main {
     margin-left: 40px;
 }
 
+.content h2{
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
 /*Footer Section*/
 footer {
     background-color: #676b40;
