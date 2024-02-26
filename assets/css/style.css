@@ -145,9 +145,10 @@ footer {
 }
 
 /*Styling for contact form*/
-.contact-left {
-    display: flex;
-    flex-direction: column;
+#contact-left {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 #contact form {
@@ -164,13 +165,14 @@ footer {
 
 #contact-form .form-input {
     font-family: 'Montserrat', sans-serif;
-  color: #060606;
-  background-color: #ffffff;
+    color: #060606;
+    background-color: #ffffff;
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: none;
     box-sizing: border-box;
+    border-radius: 9px;
 }
 
 #contact-form .right-section-form {
@@ -183,11 +185,11 @@ footer {
 }
 
 #contact-form .contact-button {
-background-color: #e7b5ac;
-color: #060606;
-border: none;
-padding: 10px;
-cursor: pointer;
+    background-color: #e7b5ac;
+    color: #060606;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
 }
 
 /*Media Query for screens larger than a tablet - 768px and above*/
@@ -234,13 +236,13 @@ cursor: pointer;
         justify-content: space-between;
     }
 
-    #contact-form .form-input{
-width: 48%;
+    #contact-form .form-input {
+        width: 48%;
     }
 
-    #contact-form .right-section-form{
+    #contact-form .right-section-form {
         width: 48%;
-            }
+    }
 }
 
 /*Media Query for large screens (laptops & desktops - 992px and above*/
