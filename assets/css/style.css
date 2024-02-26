@@ -25,6 +25,14 @@ body {
     /*General text colour style*/
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+h1, h2, h3 {
+    color: #060606;
+    font-weight: 800;
+    font-size: 3rem;
+
 }
 
 /*Header Section*/
