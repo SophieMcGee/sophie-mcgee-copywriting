@@ -145,21 +145,14 @@ footer {
 }
 
 /*Styling for contact form*/
-.contact-left {
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
 #contact form {
     display: flex;
     flex-direction: column;
     max-width: 600px;
     margin: 0 auto;
-    padding: 0 10%;
+    padding: 0 20px;
     box-sizing: border-box;
-    width: 100%;
-    margin-top: 20px;
+    width: 80%;
 }
 
 #contact-form label {
@@ -175,24 +168,13 @@ footer {
     font-family: 'Montserrat', sans-serif;
     color: #060606;
     background-color: #ffffff;
-    width: 80%;
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: none;
     box-sizing: border-box;
     border-radius: 9px;
 }
-
-#contact-form .right-section-form {
-    display: flex;
-    flex-direction: column;
-}
-
-#contact-form textarea {
-    resize: vertical;
-    margin-bottom: 10px;
-}
-
 
 #contact-form .contact-button {
     background-color: #e7b5ac;
@@ -201,7 +183,8 @@ footer {
     padding: 10px;
     cursor: pointer;
     border-radius: 9px;
-    width: 80%;
+    width: auto;
+    align-self: flex-start;
 }
 
 
@@ -244,17 +227,9 @@ footer {
 
     /*Styling for contact form*/
 
-    .contact-left {
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-between;
-    }
-
-    #contact-form .form-input {
+    .contact-form {
         width: 50%;
-        /* Updated width */
     }
-
 }
 
 /*Media Query for large screens (laptops & desktops - 992px and above*/
