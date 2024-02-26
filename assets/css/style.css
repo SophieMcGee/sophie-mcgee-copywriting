@@ -28,11 +28,11 @@ body {
     font-size: 12px;
 }
 
-h1, h2, h3 {
+h1,
+h2 {
     color: #060606;
     font-weight: 800;
     font-size: 3rem;
-
 }
 
 /*Header Section*/
@@ -121,12 +121,12 @@ main {
 }
 
 #hero-text {
-position: absolute;
-top: 50%;
-right: 10%;
-text-align: right;
-margin: 0;
-transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    text-align: right;
+    margin: 0;
+    transform: translateY(-50%);
 }
 
 
@@ -186,7 +186,7 @@ footer {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-weight: 75;
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 5px;
 }
 
@@ -244,11 +244,16 @@ footer {
 
     /*Main Section Styling*/
 
-    #hero-text {
-        width: 600px;
+    h1, h2 {
+        font-size: 70px;
     }
 
     /*Footer Styling*/
+
+    footer {
+        height: 559px;
+    }
+
     #social-media-icons {
         display: flex;
         text-align: center;
@@ -259,9 +264,6 @@ footer {
         bottom: 20px;
     }
 
-    footer {
-        height: 559px;
-    }
 
     /*Styling for contact form*/
 
@@ -295,10 +297,18 @@ footer {
 
 /*Media Query for large screens (laptops & desktops - 992px and above*/
 @media screen and (min-width: 992px) {
+  /*Nav Menu Styling*/
     #menu a:hover {
         border-bottom: 1px solid #060606;
     }
 
+    /*Main Section Styling*/
+
+    h1, h2 {
+        font-size: 105px;
+    }
+
+ /*Footer Styling*/
     footer {
         height: 559px;
     }
