@@ -144,7 +144,29 @@ footer {
     margin: 15px 0;
 }
 
+/*Styling for contact form*/
+.contact-left {
+    display: flex;
+    flex-direction: column;
+}
 
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+
+}
+
+.right-section-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-button {
+
+}
 
 /*Media Query for screens larger than a tablet - 768px and above*/
 @media screen and (min-width: 768px) {
