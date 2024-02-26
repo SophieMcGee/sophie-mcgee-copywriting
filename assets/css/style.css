@@ -145,7 +145,7 @@ footer {
 }
 
 /*Styling for contact form*/
-#contact-left {
+.contact-left {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
@@ -160,7 +160,7 @@ footer {
 
 #contact-form label {
     font-family: 'Montserrat', sans-serif;
-    color: #060606;
+    color: #ffffff;
 }
 
 #contact-form .form-input {
