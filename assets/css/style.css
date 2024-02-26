@@ -132,7 +132,7 @@ footer {
 .contact-header {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    font-weight: 100;
+    font-weight: 150;
     font-size: 18px;
     color: #ffffff;
     margin: 40px 40px 0;
@@ -161,15 +161,15 @@ footer {
 #contact-form label {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    font-weight: 50;
-    font-size: 14px;
+    font-weight: 75;
+    font-size: 15px;
 }
 
 #contact-form .form-input {
     font-family: 'Montserrat', sans-serif;
     color: #060606;
     background-color: #ffffff;
-    width: 100%;
+    width: 80%;
     padding: 10px;
     margin-bottom: 10px;
     border: none;
@@ -192,6 +192,7 @@ footer {
     border: none;
     padding: 10px;
     cursor: pointer;
+    border-radius: 9px;
 }
 
 
@@ -218,7 +219,7 @@ footer {
         display: none;
     }
 
-    /*Footer Section*/
+    /*Footer Styling*/
     #social-media-icons {
         display: flex;
         text-align: center;
