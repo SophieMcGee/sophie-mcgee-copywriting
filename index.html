@@ -48,6 +48,14 @@
             <hr class="horizontal-line">
         </div>
 
+        <!--Contact Form in Footer-->
+        <div id="contact-form">
+            <form id="contact-form" action="#" method="POST" onsubmit="submitForm(event)">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" class="form-input" required>
+
+        </div>
+
         <ul id="social-media-icons">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener aria-label=" Visit my Facebook Page,
                     this will open in a new tab."><i class="fa-brands fa-facebook"></i></a></li>
@@ -62,6 +70,15 @@
 
     <!--Kit from Font Awesome for social media icons-->
     <script src="https://kit.fontawesome.com/c39eddf05d.js" crossorigin="anonymous"></script>
+
+    <!--JavaScript code used to provide a message to users when a form is submitted (data is not actually submitted)-->
+
+    <script>
+        function submitForm(event) {
+            event.preventDefault();
+            alert("Thank you for using the contact form. The website is a demo and your data has not been submmited")
+        }
+    </script>
 </body>
 
 </html>
