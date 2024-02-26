@@ -163,6 +163,8 @@ footer {
     color: #ffffff;
     font-weight: 75;
     font-size: 15px;
+    display: block;
+    margin-bottom: 5px;
 }
 
 #contact-form .form-input {
@@ -175,6 +177,7 @@ footer {
     border: none;
     box-sizing: border-box;
     border-radius: 9px;
+    display: block;
 }
 
 #contact-form .right-section-form {
@@ -184,6 +187,8 @@ footer {
 
 #contact-form textarea {
     resize: vertical;
+    display: block;
+    margin-bottom: 10px;
 }
 
 #contact-form .contact-button {
