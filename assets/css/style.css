@@ -146,7 +146,7 @@ footer {
 
 /*Styling for contact form*/
 .contact-left {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
 }
@@ -183,12 +183,14 @@ footer {
     border-radius: 9px;
 }
 
-#contact-form .form-input {
-    width: 70%;
+#contact-form .right-section-form {
+    display: flex;
+    flex-direction: column;
 }
 
-#contact-form .right-section-form {
-    width: 70%;
+#contact-form textarea {
+    resize: vertical;
+    margin-bottom: 10px;
 }
 
 #contact-form textarea {
