@@ -193,10 +193,6 @@ footer {
     margin-bottom: 10px;
 }
 
-#contact-form textarea {
-    resize: vertical;
-    margin-bottom: 10px;
-}
 
 #contact-form .contact-button {
     background-color: #e7b5ac;
@@ -255,11 +251,6 @@ footer {
     }
 
     #contact-form .form-input {
-        width: 50%;
-        /* Updated width */
-    }
-
-    #contact-form .right-section-form {
         width: 50%;
         /* Updated width */
     }
