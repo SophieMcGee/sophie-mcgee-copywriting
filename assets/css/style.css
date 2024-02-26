@@ -156,6 +156,10 @@ footer {
     flex-direction: column;
     max-width: 600px;
     margin: 0 auto;
+    padding: 0 10%;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 20px;
 }
 
 #contact-form label {
@@ -163,21 +167,20 @@ footer {
     color: #ffffff;
     font-weight: 75;
     font-size: 15px;
-    display: block;
     margin-bottom: 5px;
 }
 
-#contact-form .form-input {
+#contact-form .form-input,
+#contact-form textarea {
     font-family: 'Montserrat', sans-serif;
     color: #060606;
     background-color: #ffffff;
-    width: 80%;
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: none;
     box-sizing: border-box;
     border-radius: 9px;
-    display: block;
 }
 
 #contact-form .right-section-form {
@@ -187,7 +190,6 @@ footer {
 
 #contact-form textarea {
     resize: vertical;
-    display: block;
     margin-bottom: 10px;
 }
 
@@ -252,7 +254,7 @@ footer {
     #contact-form .right-section-form {
         width: 48%;
     }
-    
+
 }
 
 /*Media Query for large screens (laptops & desktops - 992px and above*/
