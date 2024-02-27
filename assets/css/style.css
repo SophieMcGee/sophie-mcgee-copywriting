@@ -47,7 +47,7 @@ h2 {
     border-radius: 9px;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 36px;
+    font-size: 11px;
 }
 
 /*Styling to change background colour of button during hover*/
@@ -228,6 +228,16 @@ footer {
     background-color: #676b40;
     height: 600px;
     position: relative;
+}
+
+.small-overlay-circle {
+position: absolute;
+top: 10px;
+left: 10px;
+width: 75px;
+height: 75px;
+background-color: rgba (231, 181, 172, 0.5);
+border-radius: 50%;
 }
 
 #social-media-icons {
