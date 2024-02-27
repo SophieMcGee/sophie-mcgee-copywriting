@@ -249,7 +249,27 @@ margin-bottom: 20px;
     color: #ffffff;
 }
 
+/*Services Section*/
 
+#services {
+    background-color: #060606;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5% 10%;
+}
+
+.section-header .tiny-circle {
+    width: 10px;
+    height: 10px;
+    background-color: #e7b5ac;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.services-header h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
 
 /*Footer Section*/
 footer {
