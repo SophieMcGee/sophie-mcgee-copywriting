@@ -32,7 +32,7 @@ h1,
 h2 {
     color: #060606;
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 /*Button Styles*/
@@ -62,6 +62,12 @@ h2 {
     background-color: #a97b6c;
 }
 
+/*Pink-word-highlight-styling*/
+
+.pink-word {
+    color:#e7b5ac;
+    text-transform: uppercase;
+}
 
 /*Header Section*/
 header {
@@ -164,10 +170,6 @@ main {
     transform: translateY(-50%);
 }
 
-#hero-text {
-    font-size: 2rem;
-}
-
 /*About Section*/
 
 /*Generic styling for about section*/
@@ -229,6 +231,7 @@ margin-bottom: 20px;
 #cta1 {
     background-color: #676b40;
     text-align: center;
+    font-size: 1.5rem;
     padding: 5% 10%;
 }
 
