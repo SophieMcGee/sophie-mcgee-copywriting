@@ -65,7 +65,7 @@ h2 {
 /*Pink-word-highlight-styling*/
 
 .pink-word {
-    color:#e7b5ac;
+    color: #e7b5ac;
     text-transform: uppercase;
 }
 
@@ -194,7 +194,7 @@ main {
 #section1 {
     margin-top: 40px;
     margin-left: 40px;
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 #section1 h2 {
@@ -279,6 +279,7 @@ margin-bottom: 20px;
     gap: 20px;
     margin-top: 20px;
 }
+
 .image-container {
     position: relative;
     overflow: hidden;
@@ -291,14 +292,17 @@ margin-bottom: 20px;
 
 .label {
     position: absolute;
+    right: 5px;
+    left: 5px;
     bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
     background-color: #e7b5ac;
     color: #ffffff;
     text-align: center;
+    font-size: 14px;
     font-weight: bold;
 }
 
