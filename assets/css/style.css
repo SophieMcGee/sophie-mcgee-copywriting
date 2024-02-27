@@ -306,6 +306,10 @@ main {
     font-weight: bold;
 }
 
+/*Hover effect on services labels*/
+.image-container:hover .label {
+    opacity: 1;
+}
 
 /*Footer Section*/
 footer {
