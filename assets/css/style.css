@@ -210,6 +210,7 @@ margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     height: 100%;
+    margin-left: 20px;
 }
 
 .circle-container {
@@ -243,8 +244,9 @@ margin-bottom: 20px;
     margin: 0 auto;
 }
 
-#cta h2 {
+#cta1 h2 {
     margin-bottom: 10px;
+    color: #ffffff;
 }
 
 
