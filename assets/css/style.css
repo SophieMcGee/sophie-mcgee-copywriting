@@ -161,7 +161,6 @@ main {
 }
 
 /*Styling for button in about section*/
-
 #section1 a.button {
     background-color: #e7b5ac;
     color: #ffffff;
@@ -173,8 +172,15 @@ main {
     font-weight: bold;
 }
 
+/*Styling to change background colour of button during hover*/
 #section1 a.button:hover {
-    background-color: #676b40;
+    background-color: #d1958a;
+}
+
+/*Styling to change background colour of button when clicked*/
+#section1 a.button:active,
+#section1 a.button:focus {
+    background-color: #a97b6c;
 }
 
 /*Footer Section*/
