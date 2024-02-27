@@ -271,17 +271,37 @@ margin-bottom: 20px;
     color: #ffffff;
 }
 
+/*Styling for services grid*/
+
 .services-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     margin-top: 20px;
 }
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
 
 .image-container img {
     width: 100%;
     filter: grayscale(100%);
 }
+
+.label {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 25%;
+    background-color: #e7b5ac;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
 
 /*Footer Section*/
 footer {
