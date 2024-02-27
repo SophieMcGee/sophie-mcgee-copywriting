@@ -160,6 +160,23 @@ main {
     margin-bottom: 30px;
 }
 
+/*Styling for button in about section*/
+
+#section1 a.button {
+    background-color: #e7b5ac;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 9px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#section1 a.button:hover {
+    background-color: #676b40;
+}
+
 /*Footer Section*/
 footer {
     background-color: #676b40;
