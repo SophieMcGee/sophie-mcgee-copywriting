@@ -129,6 +129,29 @@ main {
     transform: translateY(-50%);
 }
 
+/*Styling for button in hero section*/
+#hero-text a.button {
+    background-color: #e7b5ac;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 9px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*Styling to change background colour of button during hover*/
+#hero-text a.button:hover {
+    background-color: #d1958a;
+}
+
+/*Styling to change background colour of button when clicked*/
+#hero-text a.button:active,
+#hero-text a.button:focus {
+    background-color: #a97b6c;
+}
+
 /*About Section*/
 
 #about {
