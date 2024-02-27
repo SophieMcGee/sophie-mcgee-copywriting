@@ -226,6 +226,24 @@ margin-bottom: 20px;
 
 /*Call-to-action-section-1*/
 
+#cta1 {
+    background-color: #676b40;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+#cta1 .tiny-circle {
+    width: 10px;
+    height: 10px;
+    align-self: center;
+    background-color: #e7b5ac;
+    border-radius: 50%;
+}
+
+#cta h2 {
+    margin-bottom: 10px;
+}
+
 /*Footer Section*/
 footer {
     background-color: #676b40;
