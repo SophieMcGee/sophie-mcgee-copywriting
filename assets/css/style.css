@@ -417,6 +417,12 @@ footer {
         width: 100%;
     }
 
+    /*Services Section Styling*/
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     /*Footer Styling*/
 
     footer {
@@ -483,10 +489,15 @@ footer {
     /*About Section*/
 
     #about {
-
         display: flex;
         flex-direction: row;
         height: auto;
+    }
+
+    /*Services Section*/
+
+    .services-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 
     /*Footer Styling*/
