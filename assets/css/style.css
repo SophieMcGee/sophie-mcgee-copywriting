@@ -141,25 +141,23 @@ main {
     font-size: 14px;
 }
 
-
-.tiny-circle {
+#section1 .tiny-circle {
     width: 10px;
     height: 10px;
     background-color: #676b40;
     border-radius: 50%;
-    margin-top: 30px;
-    margin-left: 40px;
 }
 
-.content {
+#section1 {
     margin-top: 40px;
     margin-left: 40px;
 }
 
-.content h2{
-    font-size: 36px;
+
+#section1 h2{
+    font-size: 27px;
     font-weight: 800;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 /*Footer Section*/
