@@ -163,9 +163,10 @@ main {
     transform: translateY(-50%);
 }
 
-#hero-text,{
+#hero-text {
     font-size: 2rem;
 }
+
 /*About Section*/
 
 /*Generic styling for about section*/
@@ -199,11 +200,11 @@ main {
 }
 
 /*Styling for images in about section*/
-.big-circle {
+.circle-container img {
     width: 260px;
     height: 260px;
     border-radius: 50%;
-    background-image: url('assets/img/large-circle-image.png');
+    object-fit: cover;
 }
 
 /*Footer Section*/
