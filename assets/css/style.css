@@ -235,14 +235,16 @@ margin-bottom: 20px;
 #cta1 .tiny-circle {
     width: 10px;
     height: 10px;
-    align-self: center;
     background-color: #e7b5ac;
     border-radius: 50%;
+    margin: 0 auto;
 }
 
 #cta h2 {
     margin-bottom: 10px;
 }
+
+
 
 /*Footer Section*/
 footer {
