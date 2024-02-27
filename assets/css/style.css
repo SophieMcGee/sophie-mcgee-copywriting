@@ -174,7 +174,6 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #fdf4ef;
-    height: 900px;
     align-items: left;
     color: #060606;
     font-size: 13px;
@@ -202,12 +201,13 @@ main {
 /*Styling for images in about section*/
 
 #section2 {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100%;
-margin-top: -60%;
-margin-left: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 20%;
+    margin-left: -20px;
+    margin-top: 20px;
 }
 
 .circle-container {
@@ -223,21 +223,12 @@ margin-left: -20px;
     object-fit: cover;
     border-radius: 50%;
 }
+
 /*Footer Section*/
 footer {
     background-color: #676b40;
     height: 600px;
     position: relative;
-}
-
-.small-overlay-circle {
-position: absolute;
-top: 10px;
-left: 10px;
-width: 75px;
-height: 75px;
-background-color: rgba (231, 181, 172, 0.5);
-border-radius: 50%;
 }
 
 #social-media-icons {
@@ -355,7 +346,25 @@ border-radius: 50%;
     /*About Section*/
 
     #about {
-        height: 1368px;
+        flex-direction: row;
+        height: auto;
+    }
+
+    #section1 {
+        flex: 1;
+        margin: 40px;
+    }
+
+    #section2 {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .circle-container {
+        width: 500px;
+        height: 500px;
+        overflow: hidden;
+        border-radius: 50%;
     }
 
     /*Footer Styling*/
@@ -423,8 +432,22 @@ border-radius: 50%;
 
     /*About Section*/
 
-    #about {
-        height: 812px;
+        #about {
+            
+            display: flex;
+            flex-direction: row;
+            height: auto;
+        }
+
+        #section1 {
+            flex: 1;
+            margin: 40px;
+        }
+
+        #section2 {
+            margin-top: 0;
+            margin-left: 0;
+        }
 
         /*Footer Styling*/
         footer {
@@ -436,4 +459,3 @@ border-radius: 50%;
             right: 0;
         }
     }
-}
