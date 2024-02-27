@@ -47,6 +47,7 @@ h2 {
     border-radius: 9px;
     text-decoration: none;
     font-weight: bold;
+    margin-top: 36px;
 }
 
 /*Styling to change background colour of button during hover*/
@@ -140,10 +141,17 @@ main {
 /*Website Hero Section*/
 
 #hero-image {
-    height: 700px;
+    height: 500px;
     width: 100%;
-    background: url("../img/hero-image.png") no-repeat center center/cover;
+    overflow: hidden;
     position: relative;
+}
+
+#hero-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center top;
 }
 
 #hero-text {
@@ -155,8 +163,12 @@ main {
     transform: translateY(-50%);
 }
 
+#hero-text,{
+    font-size: 2rem;
+}
 /*About Section*/
 
+/*Generic styling for about section*/
 #about {
     display: flex;
     flex-direction: column;
@@ -174,39 +186,24 @@ main {
     border-radius: 50%;
 }
 
+/*Styling for text in about section*/
 #section1 {
     margin-top: 40px;
     margin-left: 40px;
 }
 
-
-#section1 h2{
+#section1 h2 {
     font-size: 25px;
     font-weight: 800;
     margin-bottom: 30px;
 }
 
-/*Styling for button in about section*/
-#section1 a.button {
-    background-color: #e7b5ac;
-    color: #ffffff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 9px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/*Styling to change background colour of button during hover*/
-#section1 a.button:hover {
-    background-color: #d1958a;
-}
-
-/*Styling to change background colour of button when clicked*/
-#section1 a.button:active,
-#section1 a.button:focus {
-    background-color: #a97b6c;
+/*Styling for images in about section*/
+.big-circle {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-image: url('assets/img/large-circle-image.png');
 }
 
 /*Footer Section*/
@@ -325,7 +322,7 @@ footer {
     /*Hero Section*/
     h1,
     h2 {
-        font-size: 70px;
+        font-size: 4rem;
     }
 
     /*About Section*/
@@ -394,7 +391,7 @@ footer {
     /*Hero Section*/
     h1,
     h2 {
-        font-size: 105px;
+        font-size: 5rem;
     }
 
     /*About Section*/
