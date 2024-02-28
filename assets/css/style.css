@@ -359,8 +359,31 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
 }
+
+/*Icons in pricing box*/
+
+.pricing-grid > div p {
+margin: 0;
+text-align: center;
+color: #676b40;
+font-size: 3rem;
+}
+
+/* Headings in pricing box*/
+
+.pricing-grid > div h3 h4 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+/*Text in pricing box*/
+.pricing-grid > div p:not(:first-child) {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
 
 /*Footer Section*/
 footer {
