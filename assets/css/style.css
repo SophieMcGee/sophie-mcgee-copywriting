@@ -340,13 +340,26 @@ main {
     color: #ffffff;
 }
 
-/*Styling for services grid*/
+/*Styling for pricing grid*/
 
-.services-grid {
+.pricing-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     margin-top: 20px;
+}
+
+/*Pricing box styling*/
+
+.pricing-grid > div {
+    background-color: #060606;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
 }
 
 /*Footer Section*/
@@ -487,6 +500,14 @@ footer {
 
     .services-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*Pricing Section Styling*/
+
+    .pricing-grid {
+        grid-template-columns: 1fr, 1fr, 1fr;
+        max-width: 80%;
+        margin: 20px;
     }
 
     /*Footer Styling*/
