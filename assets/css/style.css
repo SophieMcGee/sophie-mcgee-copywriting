@@ -534,9 +534,9 @@ footer {
     /*Pricing Section Styling*/
 
     .pricing-grid {
-        grid-template-columns: 1fr, 1fr, 1fr;
+        grid-template-columns: repeat(3, 1fr);
         max-width: 80%;
-        margin: 20px;
+        margin: 20px auto;
     }
 
     /*Footer Styling*/
