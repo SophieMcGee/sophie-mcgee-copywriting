@@ -537,6 +537,7 @@ footer {
         grid-template-columns: repeat(3, 1fr);
         max-width: 80%;
         margin: 20px auto;
+        align-items: stretch;
     }
 
     /*Footer Styling*/
