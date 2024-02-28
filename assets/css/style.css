@@ -361,7 +361,7 @@ main {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     width: 80%;
     margin: 0 auto;
 }
@@ -377,8 +377,8 @@ main {
 
 /* Headings in pricing box*/
 
-.pricing-grid>div h3,
-.pricing-grid>h4 {
+.pricing-grid > div h3,
+.pricing-grid > div h4 {
     margin: 10px 0;
     font-size: 1.5rem;
 }
@@ -434,7 +434,7 @@ footer {
 }
 
 /*Styling for contact form*/
-#contact form {
+#contact-form {
     display: flex;
     flex-direction: column;
     max-width: 600px;
