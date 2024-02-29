@@ -204,13 +204,6 @@ main {
     padding-bottom: 40px;
 }
 
-#section1 .tiny-circle {
-    width: 10px;
-    height: 10px;
-    background-color: #676b40;
-    border-radius: 50%;
-}
-
 /*Styling for text in about section*/
 .content {
     margin-top: 40px;
