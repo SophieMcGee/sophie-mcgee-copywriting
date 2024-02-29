@@ -408,18 +408,6 @@ main {
     text-align: left;
 }
 
-.pricing-grid .contact-button {
-    background-color: #676b40;
-    color: #ffffff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 9px;
-    width: auto;
-    align-self: flex-start;
-}
-
-
 /*Footer Section*/
 footer {
     background-color: #676b40;
