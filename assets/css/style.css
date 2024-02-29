@@ -199,7 +199,6 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #fdf4ef;
-    align-items: left;
     color: #060606;
     padding-bottom: 40px;
 }
@@ -371,7 +370,6 @@ main {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    align-items: left;
     width: 80%;
     margin: 0 auto;
 }
