@@ -25,7 +25,7 @@ body {
     /*General text colour style*/
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 1.6rem;
 }
 
 h1,
@@ -200,7 +200,7 @@ main {
     background-color: #fdf4ef;
     align-items: left;
     color: #060606;
-    font-size: 13px;
+    font-size: 1.4rem;
     padding-bottom: 40px;
 }
 
@@ -212,15 +212,15 @@ main {
 }
 
 /*Styling for text in about section*/
-#section1 {
+.content {
     margin-top: 40px;
     margin-left: 40px;
     margin-bottom: 20px;
     margin-right: 10px;
 }
 
-#section1 h2 {
-    font-size: 25px;
+.content h2 {
+    font-size: 1.8rem;
     font-weight: 800;
     margin-bottom: 30px;
 }
@@ -322,7 +322,7 @@ main {
     align-items: center;
     padding: 10px;
     background-color: #e7b5ac;
-    color: #ffffff;
+    color: #060606;
     text-align: center;
     font-size: 14px;
     font-weight: bold;
@@ -399,8 +399,6 @@ main {
 .pricing-grid > div h4 {
     margin: 10px 0;
     font-size: 0.9rem;
-    white-space: nowrap;
-    overflow: hidden;
 }
 
 /*Text in pricing box*/
@@ -440,7 +438,7 @@ footer {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     font-weight: 250;
-    font-size: 14px;
+    font-size: 1.8rem;
     color: #ffffff;
     margin: 20 10px 10px;
 }
@@ -560,6 +558,10 @@ footer {
         width: 100%;
     }
 
+    /*Styling for image in about section*/
+.circle-container {
+    display: none;
+}
     /*Services Section Styling*/
 
     .services-grid {
