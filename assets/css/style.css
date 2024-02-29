@@ -402,6 +402,26 @@ main {
     text-align: left;
 }
 
+/*Testimonials Section*/
+
+/*styling for testimonials section*/
+#testimonials {
+    display: flex;
+    flex-direction: column;
+    background-color: #fdf4ef;
+    color: #060606;
+    font-size: 1.4rem;
+    padding-bottom: 40px;
+}
+
+/*Styling for text in testimonials section*/
+.testimonials-content {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
 /*Footer Section*/
 footer {
     background-color: #676b40;
