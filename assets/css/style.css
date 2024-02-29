@@ -555,9 +555,10 @@ footer {
 
     /*About Section*/
 
-    #about {
+    #about h2 {
         flex-direction: row;
         height: auto;
+        font-size: 2.5rem;
     }
 
     #section2 {
@@ -634,10 +635,11 @@ footer {
 
     /*About Section*/
 
-    #about {
+    #about h2 {
         display: flex;
         flex-direction: row;
         height: auto;
+        font-size: 3rem;
     }
 
     /*Services Section*/
