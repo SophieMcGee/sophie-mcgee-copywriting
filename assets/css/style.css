@@ -340,6 +340,10 @@ main {
     padding: 5% 10%;
 }
 
+.section-header {
+    text-align: center;
+}
+
 .section-header .tiny-circle {
     width: 10px;
     height: 10px;
