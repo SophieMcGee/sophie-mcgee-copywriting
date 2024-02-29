@@ -25,7 +25,7 @@ body {
     /*General text colour style*/
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 h1,
@@ -144,6 +144,7 @@ nav {
     color: #060606;
 }
 
+/*Code to ensure screenreaders pickup the checkbox*/
 .sr-only {
     border: 0; 
     clip: rect(0 0 0 0); 
@@ -200,7 +201,6 @@ main {
     background-color: #fdf4ef;
     align-items: left;
     color: #060606;
-    font-size: 1.4rem;
     padding-bottom: 40px;
 }
 
@@ -213,7 +213,6 @@ main {
 }
 
 .content h2 {
-    font-size: 1.8rem;
     font-weight: 800;
     margin-bottom: 30px;
 }
@@ -317,7 +316,6 @@ main {
     background-color: #e7b5ac;
     color: #060606;
     text-align: center;
-    font-size: 14px;
     font-weight: bold;
 }
 
@@ -410,7 +408,6 @@ main {
     flex-direction: column;
     background-color: #fdf4ef;
     color: #060606;
-    font-size: 1.4rem;
     padding-bottom: 40px;
 }
 
@@ -471,7 +468,6 @@ footer {
         font-family: 'Montserrat', sans-serif;
         color: #ffffff;
         font-weight: 500;
-        font-size: 13px;
         margin-bottom: 5px;
     }
 
@@ -649,9 +645,6 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .label {
-        font-size: 16px;
-    }
 
     /*Footer Styling*/
     footer {
