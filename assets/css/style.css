@@ -336,7 +336,6 @@ main {
 
 #pricing {
     background-color: #e7b5ac;
-    text-align: left;
     font-size: 1.5rem;
     padding: 5% 10%;
 }
@@ -375,7 +374,7 @@ main {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     width: 80%;
     margin: 0 auto;
 }
@@ -402,6 +401,7 @@ main {
     margin: 10px 0;
     font-size: 1rem;
     color: #ffffff;
+    text-align: left;
 }
 
 .pricing-grid .contact-button {
