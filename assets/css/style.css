@@ -223,15 +223,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    margin-left: 20px;
-}
-
-.circle-container img {
-    width: 50%;
-    padding: 20px 0;
-    overflow: hidden;
-    border-radius: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .circle-container img {
@@ -559,6 +552,7 @@ footer {
         height: auto;
         font-size: 2.5rem;
     }
+    
 
     /*Styling for image in about section*/
     .circle-container {
