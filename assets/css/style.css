@@ -217,9 +217,9 @@ main {
     margin-bottom: 30px;
 }
 
-/*Styling for images in about section*/
+/*Styling for image in about section*/
 
-#section2 {
+.circle-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,7 +227,7 @@ main {
     margin-left: 20px;
 }
 
-.circle-container {
+.circle-container img {
     width: 50%;
     padding: 20px 0;
     overflow: hidden;
@@ -558,14 +558,6 @@ footer {
         flex-direction: row;
         height: auto;
         font-size: 2.5rem;
-    }
-
-    #section2 {
-        flex-direction: row;
-    }
-
-    .circle-container {
-        width: 100%;
     }
 
     /*Styling for image in about section*/
