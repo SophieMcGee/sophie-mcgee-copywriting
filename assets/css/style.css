@@ -40,7 +40,7 @@ h2 {
 /*Styling for button in about section*/
 .button {
     background-color: #e7b5ac;
-    color: #ffffff;
+    color: #060606;
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -336,7 +336,7 @@ main {
 
 #pricing {
     background-color: #e7b5ac;
-    text-align: center;
+    text-align: left;
     font-size: 1.5rem;
     padding: 5% 10%;
 }
@@ -402,6 +402,17 @@ main {
     margin: 10px 0;
     font-size: 1rem;
     color: #ffffff;
+}
+
+.pricing-grid .contact-button {
+    background-color: #676b40;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 9px;
+    width: auto;
+    align-self: flex-start;
 }
 
 
@@ -473,7 +484,7 @@ footer {
 
 #contact-form .contact-button {
     background-color: #e7b5ac;
-    color: #ffffff;
+    color: #060606;
     border: none;
     padding: 10px;
     cursor: pointer;
