@@ -146,17 +146,17 @@ nav {
 
 /*Code to ensure screenreaders pickup the checkbox*/
 .sr-only {
-    border: 0; 
-    clip: rect(0 0 0 0); 
-    -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px); 
-    clip-path: polygon(0px 0px, 0px 0px, 0px 0px); 
-    height: 1px; 
-    margin: -1px; 
-    overflow: hidden; 
-    padding: 0; 
-    position: absolute; 
-    width: 1px; 
-    white-space: nowrap; 
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+    clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
 }
 
 /*Main Section*/
@@ -387,8 +387,8 @@ main {
 
 /* Headings in pricing box*/
 
-.pricing-grid > div h3,
-.pricing-grid > div h4 {
+.pricing-grid>div h3,
+.pricing-grid>div h4 {
     margin: 10px 0;
     font-size: 0.9rem;
 }
@@ -399,6 +399,7 @@ main {
     font-size: 1rem;
     color: #ffffff;
     text-align: left;
+    padding-right: 30px;
 }
 
 /*Testimonials Section*/
@@ -445,7 +446,7 @@ footer {
     width: 80%;
 }
 
-.contact-header{
+.contact-header {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     font-weight: 250;
@@ -466,13 +467,13 @@ footer {
 }
 
 .contact-form label {
-        font-family: 'Montserrat', sans-serif;
-        color: #ffffff;
-        font-weight: 500;
-        margin-bottom: 5px;
-    }
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
 
-    #contact-form .form-input,
+#contact-form .form-input,
 #contact-form textarea {
     font-family: 'Montserrat', sans-serif;
     color: #060606;
@@ -570,9 +571,10 @@ footer {
     }
 
     /*Styling for image in about section*/
-.circle-container {
-    display: none;
-}
+    .circle-container {
+        display: none;
+    }
+
     /*Services Section Styling*/
 
     .services-grid {
@@ -613,7 +615,7 @@ footer {
         margin: 0;
         margin-left: 20px;
         margin-right: auto;
-    
+
     }
 }
 
