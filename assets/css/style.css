@@ -722,6 +722,15 @@ footer {
         border-radius: 50%;
     }
 
+    /*Styling for text in reasons section*/
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        margin-left: 20px;
+        margin-right: auto;
+    }
     /*Footer Styling*/
     footer {
         height: 559px;
