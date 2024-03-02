@@ -497,6 +497,17 @@ main {
     margin-bottom: 30px;
 }
 
+/*Styling for services images & text*/
+.services-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.services-content {
+    display: flex;
+    flex-direction: column;
+}
 
 
 /*Footer Section*/
