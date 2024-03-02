@@ -509,6 +509,14 @@ main {
     flex-direction: column;
 }
 
+.services-content-text {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+    padding-right: 30px;
+}
+
 
 /*Footer Section*/
 footer {
