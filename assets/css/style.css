@@ -158,7 +158,7 @@ nav {
     width: 1px;
     white-space: nowrap;
 }
-
+/*Home Page Styling*/
 /*Main Section*/
 main {
     /* Takes up any surplus space, doesn't shrink */
@@ -411,6 +411,31 @@ main {
     margin-bottom: 20px;
     margin-right: 10px;
 }
+
+/*Styling for about page*/
+
+/*Styling for reasons section*/
+
+#reasons {
+    background-color: #060606;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5% 10%;
+}
+
+.reasons-header .tiny-circle {
+    width: 10px;
+    height: 10px;
+    background-color: #e7b5ac;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.reasons-header h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
 
 /*Footer Section*/
 footer {
