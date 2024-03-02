@@ -731,6 +731,11 @@ footer {
         margin-left: 20px;
         margin-right: auto;
     }
+
+    .text .tiny-circle {
+        margin: 0 auto;
+    }
+    
     /*Footer Styling*/
     footer {
         height: 559px;
