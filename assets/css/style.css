@@ -442,7 +442,7 @@ flex-direction: column;
 
 .fa-solid fa-circle-check {
     color: #676b40;
-    font-size: 2rem;
+    font-size: 6rem;
 }
 
 .text {
@@ -669,7 +669,7 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #060606;
     }
-
+/*Homepage Styling*/
     /*Main Section Styling*/
 
     /*Hero Section*/
@@ -693,7 +693,12 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 
+/*About Page Styling*/
 
+/*Styling for image in reasons section*/
+.reasons-image {
+    display: none;
+}
     /*Footer Styling*/
     footer {
         height: 559px;
