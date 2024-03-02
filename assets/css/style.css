@@ -517,6 +517,19 @@ main {
     padding-right: 30px;
 }
 
+.image-container-services {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 50px;
+}
+
+.image-container-services img {
+    width: 20%;
+    max-width: 70%;
+    max-height: ;
+    filter: grayscale(100%);
+
 
 /*Footer Section*/
 footer {
