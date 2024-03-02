@@ -546,6 +546,7 @@ footer {
     border-radius: 9px;
     width: auto;
     align-self: flex-start;
+    margin-bottom: 50px;
 }
 
 /*Formatting for social media links*/
@@ -555,7 +556,7 @@ footer {
     list-style-type: none;
     margin: 0;
     position: absolute;
-    bottom: 20px;
+    bottom: 5px;
     padding: 0;
     right: 20px;
 }
@@ -701,7 +702,7 @@ footer {
     .reasons-image {
         display: none;
     }
-    }
+    
     /*Footer Styling*/
     footer {
         height: 559px;
