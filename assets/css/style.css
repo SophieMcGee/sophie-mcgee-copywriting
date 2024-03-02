@@ -447,9 +447,10 @@ main {
 
 /*Styling for tick icons*/
 
-.icon {
+.fa-solid.fa-circle-check {
     color: #676b40;
-    font-size: 6rem;
+    font-size: 4rem;
+    margin-bottom: 15px;
 }
 
 /*Styling for reasons image*/
@@ -466,6 +467,7 @@ main {
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 /*Footer Section*/
