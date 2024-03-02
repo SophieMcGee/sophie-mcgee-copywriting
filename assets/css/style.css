@@ -472,6 +472,32 @@ main {
     margin-bottom: 20px;
 }
 
+/*Styling for services page*/
+
+/*Generic styling for services section*/
+#services-intro {
+    display: flex;
+    flex-direction: column;
+    background-color: #fdf4ef;
+    color: #060606;
+    padding-bottom: 40px;
+}
+
+/*Styling for text in services section*/
+.content {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.content h2 {
+    font-weight: 800;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+
 /*Footer Section*/
 footer {
     background-color: #676b40;
