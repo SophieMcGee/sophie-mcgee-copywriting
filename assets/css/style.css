@@ -422,6 +422,11 @@ main {
     flex-direction: column;
     background-color: #060606;
     text-align: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+
 }
 
 .reasons-header .tiny-circle {
@@ -444,15 +449,7 @@ main {
     font-size: 6rem;
 }
 
-.text {
-    padding: 20px;
-}
-
-.reasons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*Styling for reasons image*/
 
 .reasons-image {
     display: flex;
