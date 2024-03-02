@@ -477,8 +477,7 @@ main {
 /*Generic styling for services section*/
 #services-intro {
     display: flex;
-    margin: 0 auto;
-    justify-content: center;
+    flex-direction: column;
     background-color: #fdf4ef;
     color: #060606;
     padding-bottom: 40px;
@@ -498,15 +497,6 @@ main {
     margin-bottom: 30px;
 }
 
-/*Styling for text and images in services section*/
-
-.services-container{
-
-}
-
-.services-content{
-
-}
 
 
 /*Footer Section*/
