@@ -422,11 +422,14 @@ main {
     flex-direction: column;
     background-color: #060606;
     text-align: left;
+    margin: 0;
+}
+
+.text {
     margin-top: 40px;
     margin-left: 40px;
     margin-bottom: 20px;
     margin-right: 10px;
-
 }
 
 .reasons-header .tiny-circle {
@@ -444,7 +447,7 @@ main {
 
 /*Styling for tick icons*/
 
-.fa-solid fa-circle-check {
+.icon {
     color: #676b40;
     font-size: 6rem;
 }
@@ -455,8 +458,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 0 20%;
 }
 
 .reasons-image img {
