@@ -417,6 +417,8 @@ main {
 /*Styling for reasons section*/
 
 .reasons {
+    display: flex;
+flex-direction: column;
     background-color: #060606;
     text-align: center;
     font-size: 1.5rem;
@@ -436,6 +438,38 @@ main {
     color: #ffffff;
 }
 
+/*Styling for tick icons*/
+
+.fa-solid fa-circle-check {
+    color: #676b40;
+    font-size: 2rem;
+}
+
+.text {
+    padding: 20px;
+}
+
+.reasons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reasons img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.reasons-image {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 100%; 
+    height: 100%;
+    margin-top: 20px;
+}
 
 /*Footer Section*/
 footer {
