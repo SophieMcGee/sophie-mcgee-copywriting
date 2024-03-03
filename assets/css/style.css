@@ -497,36 +497,38 @@ main {
     margin-bottom: 30px;
 }
 
-/*Styling for services images & text*/
+/*Styling for services accordian section*/
 .services-section {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.services-content {
-    display: flex;
-    flex-direction: column;
+.accordian {
+    background-color: #e7b5ac;
+    color: #060606;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 9px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
-.services-content-text {
-    margin: 10px 0;
-    font-size: 1rem;
-    color: #ffffff;
-    text-align: left;
-    padding-right: 30px;
+/*Styling to change background colour of accordian section during hover*/
+.accordian:hover {
+    background-color: #d1958a;
 }
 
-.image-container-services {
-    position: relative;
+.panel {
+    padding: 0 15px;
     overflow: hidden;
-    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
-.image-container-services img {
-    width: 80%;
-    filter: grayscale(100%);
-}
 
 /*Footer Section*/
 footer {
