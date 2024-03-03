@@ -90,10 +90,10 @@
                 </div>
             </div>
 
-            <!--Services Accordian-->
+            <!--Services Accordion-->
             <section class="services-section">
 
-                <button class="accordian" onclick="toggleAccordion('website-content')"
+                <button class="accordion" onclick="toggleAccordion('website-content')"
                     aria-label="Open website content section.">Website Content</button>
                 <div class="panel" id="website-content">
                     <p><strong>Transform your online presence with my comprehensive website content
@@ -107,7 +107,7 @@
                         with tailored website content that speaks volumes about your business and sets you apart in
                         the digital landscape.</p>
                 </div>
-                <button class="accordian" onclick="toggleAccordion('blog-posts')"
+                <button class="accordion" onclick="toggleAccordion('blog-posts')"
                     aria-label="Open blog posts section.">Blog Posts</button>
                 <div class="panel" id="blog-posts">
                     <p><strong>Fuel your brand's narrative with my blog post services, designed to engage, inform,
@@ -121,7 +121,7 @@
                         your online presence. Elevate your blog game and leave a lasting impression with impactful
                         storytelling.</p>
                 </div>
-                <button class="accordian" onclick="toggleAccordion('social-media-posts')"
+                <button class="accordion" onclick="toggleAccordion('social-media-posts')"
                     aria-label="Open social media section.">Social Media</button>
                 <div class="panel" id="social-media-posts">
                     <p><strong>Amplify your brand's voice and connect with your audience through my
@@ -137,7 +137,7 @@
                         with content that stands out in the digital crowd.</p>
                 </div>
 
-                <button class="accordian" onclick="toggleAccordion('email-marketing')"
+                <button class="accordion" onclick="toggleAccordion('email-marketing')"
                     aria-label="Open email marketing section.">Email Marketing Content</button>
                 <div class="panel" id="email-marketing">
                     <p><strong>Elevate your email campaigns with my specialised email marketing content
@@ -151,7 +151,7 @@
                     lasting impact, driving clicks, conversions, and building stronger connections with your
                     audience. Elevate your email strategy with impactful and results-driven content.</p>
                 </div>
-                <button class="accordian" onclick="toggleAccordion('seo-copywriting')"
+                <button class="accordion" onclick="toggleAccordion('seo-copywriting')"
                     aria-label="Open SEO copywriting section.">SEO copywriting</button>
                 <div class="panel" id="seo-copywriting">
                     <p><strong>Boost your online visibility and climb search engine rankings with my SEO copywriting
@@ -166,7 +166,7 @@
                         audience but also aligns with the ever-evolving landscape of search engine optimisation.</p>
                 </div>
 
-                <button class="accordian" onclick="toggleAccordion('printed-material')"
+                <button class="accordion" onclick="toggleAccordion('printed-material')"
                     aria-label="Printed material content.">Printed Material Copy</button>
                 <div class="panel" id="printed-material">
                     <p><strong>Bring your brand to life on paper with my printed material copy services.</strong>
@@ -264,8 +264,7 @@
                 } else {
                     content.style.display = "block";
                 }
-                var symbol = content.previousElementSibling.querySelector(":after");
-                symbol.style.content = content.style.display === "block" ? '"\2796"' : '"\02795"';
+                content.previousElementSibling.classList.toggle("active");
             }
         </script>
 

@@ -497,14 +497,14 @@ main {
     margin-bottom: 30px;
 }
 
-/*Styling for services accordian section*/
+/*Styling for services accordion section*/
 .services-section {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.accordian {
+.accordion {
     background-color: #e7b5ac;
     color: #060606;
     border: none;
@@ -518,7 +518,7 @@ main {
 }
 
 /*Styling to change background colour of accordian section during hover*/
-.accordian:hover {
+.accordion:hover {
     background-color: #d1958a;
 }
 
@@ -535,7 +535,7 @@ main {
 }
 
 /*Unicode character for a + symbol*/
-.accordion:after {
+.accordion::before {
     content: '\02795';
     font-size: 15px;
     float: right;
@@ -543,7 +543,7 @@ main {
 }
 
 /*Unicode character for a - symbol*/
-.active:after {
+.accordion.active::before {
     content: "\2796";
 }
 
