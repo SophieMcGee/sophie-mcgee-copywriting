@@ -535,8 +535,8 @@ main {
 }
 
 /*Unicode character for a + symbol*/
-.accordian:after {
-    content: '/02795/';
+.accordion:after {
+    content: '\02795';
     font-size: 15px;
     float: right;
     margin-left: 5px;
@@ -546,7 +546,6 @@ main {
 .active:after {
     content: "\2796";
 }
-
 
 
 /*Footer Section*/
