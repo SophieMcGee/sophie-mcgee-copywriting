@@ -92,7 +92,8 @@
 
             <!--Services Accordian-->
             <section class="services-section">
-                <button class="accordian">Website Content</button>
+
+                <button class="accordian"  onclick="toggleAccordion('section1')" aria-label="Open website content section.">Website Content</button>
                 <div class="panel">
                     <p><strong>Transform your online presence with my comprehensive website content
                             services.</strong></p>
@@ -104,11 +105,11 @@
                         experience, enhance search engine visibility, and leave a lasting impression on visitors
                         with tailored website content that speaks volumes about your business and sets you apart in
                         the digital landscape.</p>
-                    </div>
-                        <button class="accordian">Blog Posts</button>
+                </div>
+                <button class="accordian">Blog Posts</button>
                 <div class="panel">
                     <p><strong>Fuel your brand's narrative with my blog post services, designed to engage, inform,
-                        and drive meaningful connections.</strong></p>
+                            and drive meaningful connections.</strong></p>
                     <br>
                     <p>Whether you're aiming for thought leadership, product highlights, or industry insights, my
                         blog posts are crafted with precision and creativity. From attention-grabbing headlines to
@@ -121,46 +122,46 @@
                 <button class="accordian">Social Media</button>
                 <div class="panel">
                     <p><strong>Amplify your brand's voice and connect with your audience through my
-                                social media content services.</strong></p>
-                        <br>
-                        <p> From scroll-stopping captions to engaging posts, I specialise in crafting
-                            content that sparks conversations and builds a vibrant online community.
-                            Tailored for each platform, my social media content is designed to elevate your
-                            brand, foster engagement, and drive results. Whether you're looking to boost
-                            your presence on Instagram, Twitter, Facebook, or beyond, let's create shareable
-                            moments that resonate with your audience, strengthen your brand identity, and
-                            keep your followers coming back for more. Transform your social media strategy
-                            with content that stands out in the digital crowd.</p>
-                    </div>
+                            social media content services.</strong></p>
+                    <br>
+                    <p> From scroll-stopping captions to engaging posts, I specialise in crafting
+                        content that sparks conversations and builds a vibrant online community.
+                        Tailored for each platform, my social media content is designed to elevate your
+                        brand, foster engagement, and drive results. Whether you're looking to boost
+                        your presence on Instagram, Twitter, Facebook, or beyond, let's create shareable
+                        moments that resonate with your audience, strengthen your brand identity, and
+                        keep your followers coming back for more. Transform your social media strategy
+                        with content that stands out in the digital crowd.</p>
+                </div>
 
-                    <button class="accordian">Email Marketing Content</button>
+                <button class="accordian">Email Marketing Content</button>
                 <div class="panel">
                     <p><strong>Elevate your email campaigns with my specialised email marketing content
-                        services.</strong></p>
-                <br>
-                <p></p>From attention-grabbing subject lines to persuasive copy within, each email is a
-                powerful tool to engage and convert your audience. I focus on crafting content that not only
-                compels opens but also inspires action. Whether you're launching a product, sharing updates,
-                or nurturing leads, my email marketing content is designed to resonate with your
-                subscribers. Let me help you create campaigns that not only land in inboxes but leave a
-                lasting impact, driving clicks, conversions, and building stronger connections with your
-                audience. Elevate your email strategy with impactful and results-driven content.</p>
-            </div>
-            <button class="accordian">SEO copywriting</button>
+                            services.</strong></p>
+                    <br>
+                    <p></p>From attention-grabbing subject lines to persuasive copy within, each email is a
+                    powerful tool to engage and convert your audience. I focus on crafting content that not only
+                    compels opens but also inspires action. Whether you're launching a product, sharing updates,
+                    or nurturing leads, my email marketing content is designed to resonate with your
+                    subscribers. Let me help you create campaigns that not only land in inboxes but leave a
+                    lasting impact, driving clicks, conversions, and building stronger connections with your
+                    audience. Elevate your email strategy with impactful and results-driven content.</p>
+                </div>
+                <button class="accordian">SEO copywriting</button>
                 <div class="panel">
                     <p><strong>Boost your online visibility and climb search engine rankings with my SEO copywriting
-                        services.</strong></p>
-                <br>
-                <p>Crafted for both readers and algorithms, my SEO-focused content ensures your website not only
-                    captures attention but also attracts organic traffic. From strategically placed keywords to
-                    engaging, informative content, I specialise in creating web copy that aligns with search
-                    engine algorithms. Whether you're launching a new site, optimising existing content, or
-                    aiming for higher search rankings, my SEO copywriting services are tailored to enhance your
-                    digital presence. Elevate your online strategy with content that not only speaks to your
-                    audience but also aligns with the ever-evolving landscape of search engine optimisation.</p>
-            </div>
+                            services.</strong></p>
+                    <br>
+                    <p>Crafted for both readers and algorithms, my SEO-focused content ensures your website not only
+                        captures attention but also attracts organic traffic. From strategically placed keywords to
+                        engaging, informative content, I specialise in creating web copy that aligns with search
+                        engine algorithms. Whether you're launching a new site, optimising existing content, or
+                        aiming for higher search rankings, my SEO copywriting services are tailored to enhance your
+                        digital presence. Elevate your online strategy with content that not only speaks to your
+                        audience but also aligns with the ever-evolving landscape of search engine optimisation.</p>
+                </div>
 
-            <button class="accordian">Printed Material Copy</button>
+                <button class="accordian">Printed Material Copy</button>
                 <div class="panel">
                     <p><strong>Bring your brand to life on paper with my printed material copy services.</strong>
                     </p>
@@ -173,7 +174,7 @@
                         and make a lasting impact. Let's transform your ideas into printed pieces that not only
                         showcase your brand with flair but also drive the desired action. Elevate your printed
                         materials with copy that captivates and converts.</p>
-                        </div>
+                </div>
             </section>
         </section>
 
@@ -248,7 +249,17 @@
                 <p>Photographer and Videographer - Dublin</p>
             </div>
         </div>
-
+        <script>
+            function toggleAccordion(sectionId) {
+                var content = document.getElementById(sectionId);
+    
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            }
+        </script>
 
     </main>
 

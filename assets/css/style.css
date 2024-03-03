@@ -527,7 +527,13 @@ main {
     overflow: hidden;
     text-align: left;
     margin-bottom: 20px;
+    display: none;
 }
+
+.panel.show {
+    display: block;
+}
+
 
 
 /*Footer Section*/
