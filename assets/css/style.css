@@ -534,6 +534,19 @@ main {
     display: block;
 }
 
+/*Unicode character for a + symbol*/
+.accordian:after {
+    content: '/02795/';
+    font-size: 15px;
+    float: right;
+    margin-left: 5px;
+}
+
+/*Unicode character for a - symbol*/
+.active:after {
+    content: "\2796";
+}
+
 
 
 /*Footer Section*/
