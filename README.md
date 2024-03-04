@@ -14,6 +14,7 @@ The live site can be viewed here - <a href="https://sophiemcgee.github.io/sophie
     * [**Target Audience**](<#target-audience>)
     * [**User Stories**](<#user-stories>)
     * [**Market Research**](<#market-research>)
+        * [1. Competitor Analysis](<#competitor-analysis>)
      
 
 # Website Objectives
