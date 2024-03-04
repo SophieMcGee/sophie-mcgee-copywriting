@@ -144,7 +144,7 @@ nav {
     color: #060606;
 }
 
-/*Code to ensure screenreaders pickup the checkbox*/
+/*Code to ensure screenreaders pickup the burger menu checkbox*/
 .sr-only {
     border: 0;
     clip: rect(0 0 0 0);
@@ -313,9 +313,18 @@ main {
     font-weight: bold;
 }
 
-/*Hover effect on services labels*/
-.image-container:hover .label {
-    opacity: 1;
+/*Styling for service images link to services page*/
+.service-image-link {
+    border: 2px solid transparent;
+    transition: 2px border-color 0.3s ease;
+    cursor: pointer;
+}
+.service-image-link:hover {
+    border-color: #e7b5ac;
+}
+
+.image-link:active, image-link:focus {
+    border-color: #a97b6c;
 }
 
 /*Pricing Section*/
