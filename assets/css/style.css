@@ -560,6 +560,57 @@ main {
     color: #ffffff;
 }
 
+/*Styling for process grid*/
+
+.process-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/*Process box styling*/
+
+.process-grid>div {
+    background-color: #ffffff;
+    color: #060606;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Icons in process box*/
+
+.process-grid>div p {
+    margin: 0;
+    text-align: left;
+    color: #676b40;
+    font-size: 3rem;
+}
+
+/* Headings in process box*/
+
+.process-grid>div h3,
+.process-grid>div h4 {
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+/*Text in process box*/
+.process-grid>div p:not(:first-child) {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #060606;
+    text-align: left;
+    padding-right: 30px;
+}
+
 /*Footer Section*/
 footer {
     background-color: #676b40;
@@ -717,6 +768,15 @@ footer {
     /*Pricing Section Styling*/
 
     .pricing-grid {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 80%;
+        margin: 20px auto;
+        align-items: stretch;
+    }
+
+    /*Process Section Styling*/
+
+    .process-grid {
         grid-template-columns: repeat(3, 1fr);
         max-width: 80%;
         margin: 20px auto;
