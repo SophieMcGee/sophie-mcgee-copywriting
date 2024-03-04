@@ -161,15 +161,14 @@ nav {
 
 /*Home Page Styling*/
 /*Main Section*/
+ /*Takes up any surplus space, doesn't shrink */
 main {
-    /* Takes up any surplus space, doesn't shrink */
     flex: 1 0 auto;
     margin-top: 110px;
     position: relative;
 }
 
 /*Website Hero Section*/
-
 #hero-image {
     height: 500px;
     width: 100%;
@@ -313,7 +312,7 @@ main {
     font-weight: bold;
 }
 
-/*Styling for service images link to services page*/
+/*Styling for service images linking to services page*/
 .service-image-link {
     display: block;
     position: relative;
@@ -414,7 +413,7 @@ main {
 
 /*Testimonials Section*/
 
-/*styling for testimonials section*/
+/*Styling for testimonials section*/
 #testimonials {
     display: flex;
     flex-direction: column;
@@ -566,7 +565,6 @@ main {
 }
 
 /*Process Section*/
-
 #process {
     background-color: #060606;
     font-size: 1.5rem;
@@ -579,7 +577,6 @@ main {
 }
 
 /*Styling for process grid*/
-
 .process-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -591,7 +588,6 @@ main {
 }
 
 /*Process box styling*/
-
 .process-grid>div {
     background-color: #fdf4ef;
     color: #060606;
@@ -604,7 +600,6 @@ main {
 }
 
 /*Icons in process box*/
-
 .process-grid>div p {
     margin: 0;
     text-align: left;
@@ -613,7 +608,6 @@ main {
 }
 
 /* Headings in process box*/
-
 .process-grid>div h3,
 .process-grid>div h4 {
     margin: 10px 0;
@@ -643,7 +637,7 @@ footer {
     height: 100%
 }
 
-/*Styling for contact form*/
+/*Styling for contact form - features in all pages*/
 
 .contact-form {
     display: flex;
@@ -664,7 +658,6 @@ footer {
 }
 
 /*Styling for horizontal line*/
-
 .horizontal-line {
     border: 1px solid #ffffff;
     margin: 15px 0;
@@ -707,7 +700,6 @@ footer {
 }
 
 /*Formatting for social media links*/
-
 #social-media-icons {
     display: flex;
     list-style-type: none;
@@ -778,13 +770,11 @@ footer {
     }
 
     /*Services Section Styling*/
-
     .services-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
     /*Pricing Section Styling*/
-
     .pricing-grid {
         grid-template-columns: repeat(3, 1fr);
         max-width: 80%;
@@ -793,7 +783,6 @@ footer {
     }
 
     /*Process Section Styling*/
-
     .process-grid {
         grid-template-columns: repeat(3, 1fr);
         max-width: 80%;
@@ -802,7 +791,6 @@ footer {
     }
 
     /*Footer Styling*/
-
     footer {
         height: 559px;
     }
@@ -819,7 +807,6 @@ footer {
 
 
     /*Styling for contact form*/
-
     .contact-form {
         width: 80%;
         max-width: 600px;
@@ -848,7 +835,6 @@ footer {
     }
 
     /*About Section*/
-
     #about h2 {
         display: flex;
         flex-direction: row;
@@ -857,13 +843,11 @@ footer {
     }
 
     /*Services Section*/
-
     .services-grid {
         grid-template-columns: repeat(3, 1fr);
     }
 
     /*About Page Styling*/
-
     /*Styling for image in reasons section*/
     .reasons-image {
         display: none;
