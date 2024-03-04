@@ -547,6 +547,18 @@ main {
     content: "\2796";
 }
 
+/*Process Section*/
+
+#process {
+    background-color: #060606;
+    font-size: 1.5rem;
+    padding: 5% 10%;
+}
+
+.process-header h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
 
 /*Footer Section*/
 footer {
