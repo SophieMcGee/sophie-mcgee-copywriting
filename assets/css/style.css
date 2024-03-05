@@ -53,7 +53,7 @@ h2 {
 
 /*Styling to change background colour of button during hover*/
 .button:hover {
-    background-color: #d1958a;
+    background-color: #a97b6c;
 }
 
 /*Styling to change background colour of button when clicked*/
@@ -536,7 +536,7 @@ main {
 
 /*Styling to change background colour of accordian section during hover*/
 .accordion:hover {
-    background-color: #d1958a;
+    background-color: #a97b6c;
 }
 
 .panel {
@@ -840,6 +840,7 @@ footer {
         flex-direction: row;
         height: auto;
         font-size: 3rem;
+        color: #
     }
 
     /*Services Section*/
