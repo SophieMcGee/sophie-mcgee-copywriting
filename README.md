@@ -14,6 +14,11 @@ The live site can be viewed here - <a href="https://sophiemcgee.github.io/sophie
     * [**Target Audience**](<#target-audience>)
     * [**User Stories**](<#user-stories>)
     * [**Market Research**](<#market-research>)
+* [**Design**](<#design>)
+    * [**Planning and Development**](<#planning-and-development>)
+    * [**Colour Scheme and Typography**](<#colour-scheme-and-typography>)
+    * [**Website Logo**](<#website-logo>)
+    * [**Final Wireframes**](<#final-wireframes>)
 
      
 
