@@ -20,7 +20,6 @@ The live site can be viewed here - <a href="https://sophiemcgee.github.io/sophie
     * [**Website Logo**](<#website-logo>)
     * [**Final Wireframes**](<#final-wireframes>)
 
-     
 
 # Website Objectives
 
@@ -229,6 +228,49 @@ I believe that attention to detail in the surface design stage contributes to a 
 The final website wireframe design is available to view in Figma via <a href="https://www.figma.com/file/dP3mcDa6YHL56k4QnIUwAD/Sophie-McGee-Copywriting-Homepage-Desktop-Design?type=design&node-id=0%3A1&mode=design&t=7bPvVV6uK0r9t8WO-1" target="_blank" rel="noopener">THIS LINK.</a>
 
 [Back to top](<#contents>)
+
+# Features
+
+## Generic Website Features
+
+### Responsive Design
+
+The website's responsive design ensures an optimal user experience across a range of devices, from desktop computers to tablets and smartphones. This is achieved through the use of media queries, with a mobile first design these queries are set to target screens with widths of more than 768px and 996px. Features such as changing font sizes, automatic adjustment of grid layouts, images and the restyling of the footer provide adaptability that guarantees that visitors can engage seamlessly with the content, regardless of their chosen device.
+
+### Clear Navigation
+
+The navigation menu is thoughtfully organised at the top right of the screen where it is positioned at all times, providing easy access to the various Home, About, and Services pages. The inclusion of clear and concise labels combined with a clear hover effect ensures that users can navigate the site effortlessly, enhancing overall usability. The style is fully responsive to screen sizes and a responsive navigation bar appears for use with mobile devices on screens less than 768px wide. In addition, the logo is included in the left of the navigation bar and can be clicked to take users back to the home page to enhance user experience.
+
+Desktop Navigation Bar:
+
+![Desktop Navigation Bar](assets/readme-images/desktop-nav-bar.png)
+
+Mobile Navigation Bar:
+
+![Mobile Navigation Bar](assets/readme-images/mobile-nav-menu.png)
+
+### Hero Section
+
+The hero sections on each page are design to captivate visitors with a high-quality image paired with compelling copy. This impactful combination immediately communicates the overall brand identity and encourages users to explore further with a call-to-action button.
+
+Hero View on Homepage:
+
+![Hero view on homepage](assets/readme-images/hero-image-homepage.png)
+
+### Call-to-Action Buttons:
+
+Throughout the website I have used strategically placed call-to-action buttons which are designed to guide users to the contact form, which is positioned in the website footer. Using text such as "Find out more" and "Discover more" buttons encourages visitors to use the contact form, fostering engagement and conversion. These buttons feature a hover effect, so the colour of the button darkens when a user hovers or clicks on the button.
+
+Call-to-action button:
+
+![Call-to-action button](assets/readme-images/call-to-action-button.png)
+
+
+## Homepage Features
+
+## About Page Features
+
+## Service Page Features
 
 
 
