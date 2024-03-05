@@ -14,7 +14,7 @@ The live site can be viewed here - <a href="https://sophiemcgee.github.io/sophie
     * [**Target Audience**](<#target-audience>)
     * [**User Stories**](<#user-stories>)
     * [**Market Research**](<#market-research>)
-        * [1. Competitor Analysis](<#competitor-analysis>)
+
      
 
 # Website Objectives
@@ -137,4 +137,93 @@ My research found that target clients have a preference for efficiency, with the
 * The contact form will feature in the footer of each page, ensuring it can be easily found for users scrolling on all screen sizes without having to navigate to a seperate page.
 
 [Back to top](<#contents>)
+
+# Design
+
+## Planning and Development
+
+During the development and planning phase of this website, attention to detail was paid to ensure a seamless and user-centric experience. The design process followed the five planes of UX—Strategy, Scope, Structure, Skeleton, and Surface—culminating in a website that I hope is visually appealing whilst also being intuitive, responsive, accessible.
+
+### Strategy: Defining Goals and Objectives
+
+In the strategy phase, the primary focus was on defining a narrative that resonates with both current clients and target audiences as defined within the user types section. The website aims to showcase key services offered, alongside highlighting my experience through client testimonials. The overall goal is to craft a persuasive narrative that highlights the power of copywriting and positions my services as the solution to potential client’s content requirements.
+
+### Scope: Defining features and functionality
+
+With a clear strategy in place, the scope was defined to determine the features and functionality required for an optimal user experience. This included the creation of multiple pages—Home, About, and Services — each serving a specific purpose in providing comprehensive information about my skills and services. Features such as a responsive, mobile-first design were prioritised to enhance user engagement.
+
+### Structure: Information architecture and hierarchy
+
+The structure plane focused on organising and arranging content to optimise user understanding and guide them towards the step of contacting me for more information. A clear and logical information architecture was implemented, ensuring that visitors can easily navigate through the website. The hierarchy of information was carefully planned from the prominent display of key information in order of priority from the services offered to pricing and testimonials on the home page, including the addition of detailed about and services pages, which all contribute to a user-friendly structure whilst encouraging visitors to engage with my contact page.
+
+### Skeleton: Wireframing and prototyping
+
+The skeleton phase involved wireframing and prototyping within Figma based on the decisions made during the previous planes of design. I began by creating a rough design for the website's layout and functionality, attention was given to the placement of key elements, ensuring a clean and uncluttered design, in line with the information gained during the market research. This phase also considered responsive design principles, so that the website adapts seamlessly to various screen sizes and devices.
+
+
+As you can see in the the wireframes below, I was able to determine the optimal arrangement of features for a seamless user experience. The templates show the initial design ideas for three pages, the homepage, about page and services page, with each page having a desktop, tablet and mobile view planned. Within the designs I incorporated areas such as a simple navigation menu, call-to-action buttons, clear content hierarchy, text and images for visual storytelling and forms which serve the purposes of the various user types.
+
+![Basic website wireframe built in Figma](assets/readme-images/basic-wireframes.png)
+
+This wireframe is available to view in Figma via <a href="https://www.figma.com/file/AaC2sKTaflgVHGJ8yIfwwj/Sophie-McGee-Copywriter?type=whiteboard&t=HUMZ4smNbPEmjJDT-1" target="_blank" rel="noopener">THIS LINK.</a>
+
+### Surface: Visual design and branding
+
+The surface plane focused on the visual aspects of the website, emphasising a cohesive and visually appealing design. Consistent branding elements, including colour schemes and imagery, were carefully chosen and designed within Canva to create a professional and aesthetically pleasing user interface. Final styles can be seen in the sections below.
+
+[Back to top](<#contents>)
+
+## Colour Scheme and Typography
+
+### Typography
+
+When creating the visual identity of this project, careful consideration was given to typography to ensure a clean and cohesive design. The primary font selected is Montserrat, a versatile and modern typeface. With a sleek and contemporary appearance, Montserrat conveys professionalism and readability, making it an excellent choice for conveying information effectively.
+
+To prioritise consistent user experience across different platforms and browsers, a sans-serif fallback option is also included. This ensures that even if Montserrat is not available, the text maintains a similar style and readability.
+
+For headings (H1 and H2) the standard font weight of 800 provides a bold and impactful appearance to capture users attention, with the size of 2rem ideal for striking a balance between prominence and readability. As standard, the body text is also set in Montserrat for a consistent and professional look. The font size of 1.4rem provides optimal readability, making it suitable for conveying information without overwhelming the reader.
+
+At times varying font weights and sizes have been adjusted and strategically applied, especially in elements such as buttons, icons and within media queries for larger screens to enhance visual hierarchy and user interaction. This ensures that important elements stand out, contributing to a more intuitive and user-friendly interface.
+
+### Colour Scheme
+
+![website colour scheme](assets/readme-images/website-colour-scheme.png)
+
+The colour scheme selected for this project reflects a deliberate choice to evoke specific emotions, enhance readability, and establish a visually appealing interface. Each colour serves a unique purpose within the overall design, contributing to a cohesive user experience. The chosen color scheme is a result of a thoughtful blend of contrasting and complementary colours, with the dark and muted tones establishing a sophisticated atmosphere, while the softer hues infuse warmth and approachability. 
+
+1. #060606 (Dark Charcoal):
+The dark charcoal color (#060606) is used within some headings, text elements and other prominent background elements. This deep, neutral shade provides high contrast against lighter backgrounds, ensuring a clear visual hierarchy and drawing attention to critical information. The richness of this colour gives a sense of sophistication and professionalism to the design.
+
+2. #e7b5ac (Blush Pink):
+Blush pink (#e7b5ac) is utilized to infuse warmth and a touch of femininity into the colour palette, and is in line with the colours used in my overall branding. This soft and muted tone is applied to elements that require a subtle and inviting aesthetic, including section backgrounds and call to action buttons. Its inclusion adds a gentle contrast to the darker tones, creating a visually pleasing balance.
+
+3. #676b40 (Olive Green):
+Olive green (#676b40) introduces an earthy and organic element to the colour scheme. This muted green is used for various elements, contributing to a natural and grounded feel. The colour symbolises growth and harmony, creating a connection to nature within the design.
+
+4. #fdf4ef (Cream):
+Cream (#fdf4ef) serves as a background color within some section elements, providing a clean and neutral canvas for the content. This light and airy shade promotes readability and reduces eye strain, creating a comfortable reading environment. The cream colour also complements the overall warmth of the palette.
+
+5. #a97b6c (Mauve):
+Mauve (#a97b6c) is integrated to introduce a subtle accent color. This muted, dusty rose shade creates visual interest without overwhelming the overall aesthetic, and is used within a hover effect on buttons throughout the website.
+
+[Back to top](<#contents>)
+
+## Website Logo
+
+Once the colour scheme was decided I created a logo for the website, which is designed to add a friendly, welcoming yet professional feel to the overall design. 
+
+![website logo](assets/img/sophie-mcgee-copywriter-logo.png)
+
+
+## Final Wireframes
+
+I believe that attention to detail in the surface design stage contributes to a positive first impression and an engaging overall experience, and as this is my first website design project, I wanted to ensure I had a clear template to follow during coding. By creating the complete design and content elements within Figma I benefited from having a crucial bridge in place between conceptualising ideas and bringing them to life. At all stages of the design process I gained feedback from peers within the Code Institute and also refined ideas to enhance user experience and accessibility, so the final design differs in some places to the Figma wireframes.
+
+![final wireframe design](assets/readme-images/wireframe-final-design.png)
+
+The final website wireframe design is available to view in Figma via <a href="https://www.figma.com/file/dP3mcDa6YHL56k4QnIUwAD/Sophie-McGee-Copywriting-Homepage-Desktop-Design?type=design&node-id=0%3A1&mode=design&t=7bPvVV6uK0r9t8WO-1" target="_blank" rel="noopener">THIS LINK.</a>
+
+[Back to top](<#contents>)
+
+
 
