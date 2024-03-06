@@ -497,6 +497,7 @@ main {
     background-color: #fdf4ef;
     color: #060606;
     padding-bottom: 40px;
+    margin: -10px;
 }
 
 /*Styling for intro text in services section*/
