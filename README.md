@@ -39,8 +39,15 @@ The live site can be viewed here - <a href="https://sophiemcgee.github.io/sophie
         * [Favicon](<#favicon>)
         * [Footer](<#Footer>)
         * [Testimonials](<#testimonials>)
+        * [404 Page](<#404-page>)
+        * [Contact Page](<#contact-page>)
     * [**Homepage Features**](<#homepage-features>)
+        * [About Section](<#about-section>)
+        * [Services Section](<#services-section>)
+        * [Pricing Section](<#pricing-section>)
     * [**About Page Features**](<#about-page-features>)
+        * [Main About Section](<#main-about-section>)
+        * [Reasons to Work With Me Section](<#reasons-to-work-with-me-section>)
     * [**Service Page Features**](<#service-page-features>)
 
 
@@ -308,7 +315,16 @@ Social media icons from Font Awesome are included in the footer with links to Fa
 
 #### Contact Form
 
-The footer features a user-friendly contact form, inviting visitors to initiate direct communication. Fields for name, email, phone number, and a message ensure that potential clients can easily reach out, streamlining the enquiry process. There are call-to-actions buttons throughout the website pages which link to this contact form.
+The footer features a user-friendly contact form, inviting visitors to initiate direct communication. Fields for name, email, phone number, and a message ensure that potential clients can easily reach out, streamlining the enquiry process, with each field having the following type:
+
+1. First Name (required, type=text)
+1. Last Name (required, type=text)
+1. Email (required, type=email)
+1. Message (required, type=textarea)
+
+As this is a test website, upon submission of this form a user is sent to a contact page.
+
+There are call-to-actions buttons throughout the website pages which link to this contact form.
 
 ![Contact-Form](assets/readme-images/contact-form.png)
 
@@ -318,11 +334,25 @@ The testimonials section is featured on the main homepage, about page and servic
 
 ![Testimonials](assets/readme-images/testimonial.png)
 
+### 404 Page
+
+A 404 page has been included which will display if a user navigates to a broken URL. The page is designed to include a button with a link back to the main homepage, and the inclusion of the footer provides continuity of design whilst still allowing users to send a message.
+
+![404 Page](assets/readme-images/404-page.png)
+
+### Contact Page
+
+As this is a test project I have designed a page which is displayed when a user enters information into the contact form. This ensures that the users are aware that the data entered has not been sent or stored anywhere. In the same way as the 404 page, there is a link to the homepage and the standard website footer. 
+
+![Contact Page](assets/readme-images/contact-page.png)
+
 ## Homepage Features
+
+In addition to the generic features outlined above, the main homepage of the website is designed with the following features:
 
 ### About Section
 
-The "About" section offers a personal touch, introducing me as a skilled copywriter. The combination of textual storytelling and visual elements, including a circlular image on smaller screens, creates a compelling narrative that resonates with visitors. This image is designed to disappear on screens above 768px wide, as other visual elements help to divide the sections of text. A call-to-action button is featured within this section, with both the small and larger screen views shown below:
+The "About" section offers a personal touch, introducing me as a skilled copywriter. The combination of textual storytelling and visual elements, including a circlular image on smaller screens, creates a compelling narrative that resonates with visitors. This image is designed to disappear on screens above 768px wide, as other visual elements help to divide the sections of text. A call-to-action button is featured within this section which directs users to the main about page, with both the small and larger screen views shown below:
 
 ![About Section](assets/readme-images/about-section-homepage.png)
 
@@ -339,8 +369,21 @@ The "Pricing" section provides transparent and straightforward options for clien
 ![Pricing Section](assets/readme-images/pricing-section-homepage.png)
 
 
-
 ## About Page Features
+
+### Main About Section
+
+The main "About" section builds upon the about section within the main homepage and uses the same combination of textual storytelling and visual elements. This includes the replication of the circlular image on smaller screens, which is designed to disappear on screens above 768px wide. A call-to-action button is featured within this section which directs users to the contact form within the footer. The full text view on screens above 768px can be seen below:
+
+![Main About Section](assets/readme-images/about-section-about-page.png)
+
+### Reasons to Work With Me Section
+
+The "Reasons to Work With Me" section provides insights into my experience with each reason presented with a distinct icon, contributing to a visually engaging layout. This section aims to communicate my unique expertise and dedication to my clients and builds upon the content within the section above in a simple and eye-catching way. To continue the styling from the section above a circlular image with the same dimensions is designed to appear on smaller screens below 996px wide, as shown below. As this section includes less text than the section above, the image is kept in place for longer.
+
+![Reasons Section](assets/readme-images/reasons-section.png)
+
+
 
 ## Service Page Features
 
