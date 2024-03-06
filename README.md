@@ -445,5 +445,27 @@ A fully integrated client dashboard will provide clients with the ability to tra
 
 A blog page will feature regular updates on projects, industry developments and useful copywriting tips. This will provide potential clients with extra information whilst also helping to build relationships.
 
+# Technologies Used
 
-
+* HTML
+    * This coding language was used to provide the foundation of the website’s structure and content.
+* CSS
+    * To provide styling to enhance the visual appearance and user experience custom CSS was applied via an external file.
+*Javascript
+    * Javascript code was used within the accordion section of the services page to provide the button functionality.
+* Gitpod
+    * This IDE was used during the coding and project management phase.
+* Github
+    * All code was pushed to Github which is used to host the projects code.
+* Canva
+    * This online design tool was used to design the website logo, to compare and find the font and to choose colours for the overall colour scheme.
+*Favicon.io
+    * The favicon was created for this website
+*Figma
+    * Both the initial basic wireframes and the final wireframe designs were built using Figma.
+*Tinypng
+    * This website was used to reduce file size through compression for images throughout the website. They were also changed to a .webp format where possible to improve performance.
+*Font Awesome
+    * The icons used throughout the website were sourced and downloaded from the Font Awesome website.
+*Google Fonts
+    * The Montserrat font used throughout the website was added to the CSS stylesheet via the Google Fonts website.
