@@ -52,6 +52,12 @@ The live site can be viewed here - <a href="https://sophiemcgee.github.io/sophie
         * [Introduction Section](<#introduction-section>)
         * [Main Services Section](<#main-services-section>)
         * [Process Section](<#process-section>)
+     * [**Future Features**](<#future-features>)
+        * [Portfolio Page](<#portfolio-page>)
+        * [Content Request Form](<#content-request-form>)
+        * [Client Dashboard and Integration](<#client-dashboard-and-integration>)
+        * [Blog Page](<#blog-page>)
+
 
 
 # Website Objectives
@@ -214,7 +220,7 @@ The surface plane focused on the visual aspects of the website, emphasising a co
 
 ### Typography
 
-When creating the visual identity of this project, careful consideration was given to typography to ensure a clean and cohesive design. The primary font selected is Montserrat, a versatile and modern typeface. With a sleek and contemporary appearance, Montserrat conveys professionalism and readability, making it an excellent choice for conveying information effectively.
+When creating the visual identity of this project, careful consideration was given to typography to ensure a clean and cohesive design. The primary font selected is Montserrat, a versatile and modern typeface. With a sleek and contemporary appearance, Montserrat conveys professionalism and readability, making it an excellent choice for conveying information effectively. This font was imported from Google Fonts.
 
 To prioritise consistent user experience across different platforms and browsers, a sans-serif fallback option is also included. This ensures that even if Montserrat is not available, the text maintains a similar style and readability.
 
@@ -259,6 +265,8 @@ I believe that attention to detail in the surface design stage contributes to a 
 ![final wireframe design](assets/readme-images/wireframe-final-design.png)
 
 The final website wireframe design is available to view in Figma via <a href="https://www.figma.com/file/dP3mcDa6YHL56k4QnIUwAD/Sophie-McGee-Copywriting-Homepage-Desktop-Design?type=design&node-id=0%3A1&mode=design&t=7bPvVV6uK0r9t8WO-1" target="_blank" rel="noopener">THIS LINK.</a>
+
+As you can see from the wireframes, the structure of the website features three pages, the homepage, an about page and a services page. The design and overall structure was built based on the research outlined above.
 
 [Back to top](<#contents>)
 
@@ -349,6 +357,8 @@ As this is a test project I have designed a page which is displayed when a user 
 
 ![Contact Page](assets/readme-images/contact-page.png)
 
+[Back to top](<#contents>)
+
 ## Homepage Features
 
 In addition to the generic features outlined above, the main homepage of the website is designed with the following features:
@@ -371,6 +381,7 @@ The "Pricing" section provides transparent and straightforward options for clien
 
 ![Pricing Section](assets/readme-images/pricing-section-homepage.png)
 
+[Back to top](<#contents>)
 
 ## About Page Features
 
@@ -387,6 +398,8 @@ The main "About" section builds upon the about section within the main homepage 
 The "Reasons to Work With Me" section provides insights into my experience with each reason presented with a distinct icon, contributing to a visually engaging layout. This section aims to communicate my unique expertise and dedication to my clients and builds upon the content within the section above in a simple and eye-catching way. To continue the styling from the section above a circlular image with the same dimensions is designed to appear on smaller screens below 996px wide, as shown below. As this section includes less text than the section above, the image is kept in place for longer.
 
 ![Reasons Section](assets/readme-images/reasons-section.png)
+
+[Back to top](<#contents>)
 
 ## Service Page Features
 
@@ -410,9 +423,27 @@ To further display the simplicity of the service a section is included with a cl
 
 ![Process Section](assets/readme-images/process-section.png)
 
+[Back to top](<#contents>)
 
+## Future Features
 
+The current website design serves as a starting point, with the following features planned to elevate the user experience in line with the information gained during research and project development.
 
+### Portfolio page
+
+A portfolio showcase page that includes detailed case studies and example projects will help to provide potential clients with further insight to the services available.
+
+### Content request form
+
+A detailed content request form will allow clients to order content based on the standard pricing listed on the website. This will streamline the process further and help to increase conversion rates.
+
+### Client dashboard and integration
+
+A fully integrated client dashboard will provide clients with the ability to track project progress, provide feedback and download content. This will enhance communication and ensure the workflow is efficient and transparent at all points within the copywriting process.
+
+### Blog page
+
+A blog page will feature regular updates on projects, industry developments and useful copywriting tips. This will provide potential clients with extra information whilst also helping to build relationships.
 
 
 
