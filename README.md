@@ -49,6 +49,9 @@ The live site can be viewed here - <a href="https://sophiemcgee.github.io/sophie
         * [Main About Section](<#main-about-section>)
         * [Reasons to Work With Me Section](<#reasons-to-work-with-me-section>)
     * [**Service Page Features**](<#service-page-features>)
+        * [Introduction Section](<#introduction-section>)
+        * [Main Services Section](<#main-services-section>)
+        * [Process Section](<#process-section>)
 
 
 # Website Objectives
@@ -371,6 +374,8 @@ The "Pricing" section provides transparent and straightforward options for clien
 
 ## About Page Features
 
+In addition to the generic features outlined above, the about page of the website is designed with the following features:
+
 ### Main About Section
 
 The main "About" section builds upon the about section within the main homepage and uses the same combination of textual storytelling and visual elements. This includes the replication of the circlular image on smaller screens, which is designed to disappear on screens above 768px wide. A call-to-action button is featured within this section which directs users to the contact form within the footer. The full text view on screens above 768px can be seen below:
@@ -383,9 +388,31 @@ The "Reasons to Work With Me" section provides insights into my experience with 
 
 ![Reasons Section](assets/readme-images/reasons-section.png)
 
-
-
 ## Service Page Features
+
+In addition to the generic features outlined above, the services page of the website is designed with the following features:
+
+### Introduction Section
+
+The "Services Intro" section offers a concise overview, presenting the copywriting services as simple, flexible, and personalised. The styling is similar to the sections included below the hero image in other pages, which creates cohesion and familiarity for users. A call-to-action button is included that links to the contact form in the footer, as shown below:
+
+![Introduction Section](assets/readme-images/services-section-services-page.png)
+
+### Main Services Section
+
+The Services section features an accordion-style layout for the various copywriting services offered. Link from each of the homepage services takes users to this section, making it quick and easy for users to find the service they need. The accordion features a hover effect and pointing cursor alongside '+' and '-' icons, which clearly show users they can click the various headings to view the contect for each. As shown in the image below:
+
+![Main Services Section](assets/readme-images/services-accordion.png)
+
+### Process Section
+
+To further display the simplicity of the service a section is included with a clear three-step process: Connect, Create and Share. The styling carries through from the pricing grid layout for cohesion, and is designed to adjust to various screen sizes in the same way, as shown below: 
+
+![Process Section](assets/readme-images/process-section.png)
+
+
+
+
 
 
 
