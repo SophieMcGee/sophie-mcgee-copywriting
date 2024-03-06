@@ -30,7 +30,7 @@ The live site can be viewed here - <a href="https://sophiemcgee.github.io/sophie
         * [Colour Scheme](<#colour-scheme>)
     * [**Website Logo**](<#website-logo>)
     * [**Final Wireframes**](<#final-wireframes>)
-* [**Features**](<#design>)
+* [**Features**](<#features>)
     * [**Generic Website Features**](<#generic-website-features>)
         * [Responsive Design](<#responsive-design>)
         * [Clear Navigation](<#clear-navigation>)
@@ -57,6 +57,7 @@ The live site can be viewed here - <a href="https://sophiemcgee.github.io/sophie
         * [Content Request Form](<#content-request-form>)
         * [Client Dashboard and Integration](<#client-dashboard-and-integration>)
         * [Blog Page](<#blog-page>)
+* [**Technologies Used**](<#technologies-used>)
 
 
 
@@ -469,3 +470,36 @@ A blog page will feature regular updates on projects, industry developments and 
     * The icons used throughout the website were sourced and downloaded from the Font Awesome website.
 *Google Fonts
     * The Montserrat font used throughout the website was added to the CSS stylesheet via the Google Fonts website.
+
+[Back to top](<#contents>)
+
+# Deployment
+
+The website was created using GitPod and is deployed to the GitHub repository 'sophie-mcgee-copywriting'.
+
+During the coding stage all changes were pushed to Github with relevant commit messages to track development progress.
+
+# Opening the repository
+
+The website can be deployed within Github by following these steps:
+
+1. Open the Github repository via this <a href="https://github.com/SophieMcGee/sophie-mcgee-copywriting" target="_blank" rel="noopener">LINK.</a>
+2. Open the 'Settings' tab.
+3. Click the 'Pages' tab within the menu to the left of the page.
+4. A link to view the live website will be displayed at the top of the page, it can take up to 5 minutes to deploy.
+
+This is the live link: https://sophiemcgee.github.io/sophie-mcgee-copywriting/
+
+# Forking the repository
+
+1. Open the Github repository and navigate to the 'Code' tab.
+2. To the right of the screen click the 'Fork' button.
+
+# Cloning the repository
+
+1. Open the Github repository and navigate to the 'Code' tab.
+2. To the right of the main screen click the green 'Code' button.
+3. Ensure HTTPS is selected and click the button to copy the URL to the clipboard.
+4. Open Gitpod (or an IDE with Git installed) and type in the terminal: git clone (INSERT COPIED LINK HERE)
+
+[Back to top](<#contents>)
