@@ -544,11 +544,25 @@ Inital Test:
 
 Amendments:
 
-The tool found an issue within the reasons section where <br> elements were used as children of a <ul> element, the issue has been fixed by removing these elements. In addition the tool recommended adding a heading to the testimonials section, which in this case is not neccessary. The issue has been fixed by changing the <section> to a <div>.
+The tool found an issue within the reasons section where <br> elements were used as children of a <ul> element, the issue has been fixed by removing these elements and adding a margin to the icon instead. In addition the tool recommended adding a heading to the testimonials section, which in this case is not neccessary. The issue has been fixed by changing the <section> to a <div>.
 
 Final Test:
 
-![Homepage HTML Final Test](assets/readme-images/html-final-test-homepage.png)
+![About HTML Final Test](assets/readme-images/html-final-about-test.png)
+
+* Services Page
+
+Inital Test:
+
+![Services HTML Test](assets/readme-images/html-services-test.png)
+
+Amendments:
+
+The tool found an issue with a duplicated </p> within the email marketing section of the services accordion, this has been fixed by removing the duplication. The next issues related to recommendations for heading tags within sections, however this was not relevant and the code has been fixed by changing the <section> element to <div> elements.
+
+Final Test:
+
+![About HTML Final Test](assets/readme-images/html-final-about-test.png)
 
 
 ## Responsivity Testing

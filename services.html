@@ -92,7 +92,7 @@
             </div>
 
             <!--Services Accordion-->
-            <section class="services-section">
+            <div class="services-section">
 
                 <button class="accordion" onclick="toggleAccordion('website-content')"
                     aria-label="Open website content section.">Website Content</button>
@@ -144,7 +144,7 @@
                     <p><strong>Elevate your email campaigns with my specialised email marketing content
                             services.</strong></p>
                     <br>
-                    <p></p>From attention-grabbing subject lines to persuasive copy within, each email is a
+                    <p>From attention-grabbing subject lines to persuasive copy within, each email is a
                     powerful tool to engage and convert your audience. I focus on crafting content that not only
                     compels opens but also inspires action. Whether you're launching a product, sharing updates,
                     or nurturing leads, my email marketing content is designed to resonate with your
@@ -182,7 +182,7 @@
                         showcase your brand with flair but also drive the desired action. Elevate your printed
                         materials with copy that captivates and converts.</p>
                 </div>
-            </section>
+            </div>
         </section>
 
         <!--Call-To-Action-Section-1-->
@@ -282,7 +282,7 @@
         </section>
 
         <!--Testimonials Section-->
-        <section id="testimonials">
+        <div id="testimonials">
             <div class="testimonials-content">
                 <p>“Sophie has been a delight to work with. Always collaborating effectively and delivering outstanding
                     creative and technical content as per our briefs, every single time. A fantastic asset to call upon.
@@ -292,21 +292,7 @@
                 <br>
                 <p>Ada Digital Marketing</p>
             </div>
-        </section>
-
-        <!--Javascript code for accordion section toggle function-->
-        <script>
-            function toggleAccordion(sectionId) {
-                var content = document.getElementById(sectionId);
-                /*Toggle to display the content*/
-                if (content.style.display === "block") {
-                    content.style.display = "none";
-                } else {
-                    content.style.display = "block";
-                }
-                content.previousElementSibling.classList.toggle("active");
-            }
-        </script>
+        </div>
     </main>
 
     <!--Footer Section-->
@@ -330,7 +316,9 @@
             </div>
         </div>
         <div class="footer-logo">
-            <img src="assets/img/sophie-mcgee-copywriter-logo.png" alt="sophie-mcgee-copywriter-logo">
+            <a href="index.html">
+                <img src="assets/img/sophie-mcgee-copywriter-logo.png" alt="sophie-mcgee-copywriter-logo">
+            </a>
         </div>
         <ul id="social-media-icons">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label=" Visit my Facebook Page,
@@ -347,4 +335,18 @@
     <!--Kit from Font Awesome for social media icons-->
     <script src="https://kit.fontawesome.com/c39eddf05d.js" crossorigin="anonymous"></script>
 </body>
+<!--Javascript code for accordion section toggle function-->
+<script>
+    function toggleAccordion(sectionId) {
+        var content = document.getElementById(sectionId);
+        /*Toggle to display the content*/
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+        content.previousElementSibling.classList.toggle("active");
+    }
+</script>
+
 </html>
