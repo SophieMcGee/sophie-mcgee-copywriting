@@ -58,7 +58,10 @@ The live site can be viewed here - <a href="https://sophiemcgee.github.io/sophie
         * [Client Dashboard and Integration](<#client-dashboard-and-integration>)
         * [Blog Page](<#blog-page>)
 * [**Technologies Used**](<#technologies-used>)
-
+* [**Deployment**](<#deployment>)
+    * [**Opening the repository**](<#opening-the-repository>)
+    * [**Forking the repository**](<#forking-the-repository>)
+    * [**Cloning the repository**](<#cloning-the-repository>)
 
 
 # Website Objectives
@@ -479,7 +482,7 @@ The website was created using GitPod and is deployed to the GitHub repository 's
 
 During the coding stage all changes were pushed to Github with relevant commit messages to track development progress.
 
-# Opening the repository
+## Opening the repository
 
 The website can be deployed within Github by following these steps:
 
@@ -490,12 +493,12 @@ The website can be deployed within Github by following these steps:
 
 This is the live link: https://sophiemcgee.github.io/sophie-mcgee-copywriting/
 
-# Forking the repository
+## Forking the repository
 
 1. Open the Github repository and navigate to the 'Code' tab.
 2. To the right of the screen click the 'Fork' button.
 
-# Cloning the repository
+## Cloning the repository
 
 1. Open the Github repository and navigate to the 'Code' tab.
 2. To the right of the main screen click the green 'Code' button.
@@ -503,3 +506,30 @@ This is the live link: https://sophiemcgee.github.io/sophie-mcgee-copywriting/
 4. Open Gitpod (or an IDE with Git installed) and type in the terminal: git clone (INSERT COPIED LINK HERE)
 
 [Back to top](<#contents>)
+
+# Testing
+
+Comprehensive testing of the website was conducted to ensure the functionality of individual components throughout each page of the site. 
+
+## Validator Testing
+
+The following websites were used during the testing process to check for errors within the code:
+
+* <a href="https://validator.w3.org/" target="_blank" rel="noopener">W3C Markup Validation Service</a>
+* <a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener">W3C CSS Validation Service</a>
+
+## Responsivity Testing
+
+The 
+
+* <a href="http://www.responsinator.com" target="_blank" rel="noopener">Responsinator</a>
+
+## Performance and Accessibility Testing
+
+* <a href="https://pagespeed.web.dev/" target="_blank" rel="noopener">PageSpeed Insights</a>
+
+## Testing of Website Functions
+
+## Bugs
+
+
