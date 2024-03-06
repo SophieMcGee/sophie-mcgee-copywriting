@@ -462,7 +462,7 @@ A blog page will feature regular updates on projects, industry developments and 
 * Github
     * All code was pushed to Github which is used to host the projects code.
 * Canva
-    * This online design tool was used to design the website logo, to compare and find the font and to choose colours for the overall colour scheme.
+    * This online design tool was used to design the website logo, to source images, to compare and find the font and to choose colours for the overall colour scheme.
 *Favicon.io
     * The favicon was created for this website
 *Figma
@@ -513,10 +513,43 @@ Comprehensive testing of the website was conducted to ensure the functionality o
 
 ## Validator Testing
 
-The following websites were used during the testing process to check for errors within the code:
+The following websites were used during the testing process to check for errors within the code for all pages:
 
 * <a href="https://validator.w3.org/" target="_blank" rel="noopener">W3C Markup Validation Service</a>
 * <a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener">W3C CSS Validation Service</a>
+
+The results were as follows:
+
+HTML Validation:
+
+* Homepage
+
+Inital Test:
+
+![Homepage HTML Test](assets/readme-images/html-test-homepage.png)
+
+Amendments:
+
+The tool recommended adding a heading to the testimonials section, which in this case is not neccessary. The issue has been fixed by changing the <section> to a <div>.
+
+Final Test:
+
+![Homepage HTML Final Test](assets/readme-images/html-final-test-homepage.png)
+
+* About Page
+
+Inital Test:
+
+![About HTML Test](assets/readme-images/html-about-test.png)
+
+Amendments:
+
+The tool found an issue within the reasons section where <br> elements were used as children of a <ul> element, the issue has been fixed by removing these elements. In addition the tool recommended adding a heading to the testimonials section, which in this case is not neccessary. The issue has been fixed by changing the <section> to a <div>.
+
+Final Test:
+
+![Homepage HTML Final Test](assets/readme-images/html-final-test-homepage.png)
+
 
 ## Responsivity Testing
 

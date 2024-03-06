@@ -161,7 +161,7 @@ nav {
 
 /*Home Page Styling*/
 /*Main Section*/
- /*Takes up any surplus space, doesn't shrink */
+/*Takes up any surplus space, doesn't shrink */
 main {
     flex: 1 0 auto;
     margin-top: 110px;
@@ -330,7 +330,7 @@ main {
 }
 
 .service-image-link:active img,
-.service-image-link:focus img{
+.service-image-link:focus img {
     transform: scale(1.1);
 }
 
@@ -469,6 +469,7 @@ main {
     color: #676b40;
     font-size: 4rem;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 /*Styling for reasons image*/
