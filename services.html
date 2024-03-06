@@ -145,12 +145,12 @@
                             services.</strong></p>
                     <br>
                     <p>From attention-grabbing subject lines to persuasive copy within, each email is a
-                    powerful tool to engage and convert your audience. I focus on crafting content that not only
-                    compels opens but also inspires action. Whether you're launching a product, sharing updates,
-                    or nurturing leads, my email marketing content is designed to resonate with your
-                    subscribers. Let me help you create campaigns that not only land in inboxes but leave a
-                    lasting impact, driving clicks, conversions, and building stronger connections with your
-                    audience. Elevate your email strategy with impactful and results-driven content.</p>
+                        powerful tool to engage and convert your audience. I focus on crafting content that not only
+                        compels opens but also inspires action. Whether you're launching a product, sharing updates,
+                        or nurturing leads, my email marketing content is designed to resonate with your
+                        subscribers. Let me help you create campaigns that not only land in inboxes but leave a
+                        lasting impact, driving clicks, conversions, and building stronger connections with your
+                        audience. Elevate your email strategy with impactful and results-driven content.</p>
                 </div>
                 <button class="accordion" onclick="toggleAccordion('seo-copywriting')"
                     aria-label="Open SEO copywriting section.">SEO Copywriting</button>
@@ -334,19 +334,23 @@
 
     <!--Kit from Font Awesome for social media icons-->
     <script src="https://kit.fontawesome.com/c39eddf05d.js" crossorigin="anonymous"></script>
-</body>
-<!--Javascript code for accordion section toggle function-->
-<script>
-    function toggleAccordion(sectionId) {
-        var content = document.getElementById(sectionId);
-        /*Toggle to display the content*/
-        if (content.style.display === "block") {
-            content.style.display = "none";
-        } else {
-            content.style.display = "block";
+    
+    <!--Javascript code for accordion section toggle function-->
+    <script>
+        function toggleAccordion(sectionId) {
+            var content = document.getElementById(sectionId);
+            /*Toggle to display the content*/
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+            content.previousElementSibling.classList.toggle("active");
         }
-        content.previousElementSibling.classList.toggle("active");
-    }
-</script>
+    </script>
+
+</body>
+
+
 
 </html>
