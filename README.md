@@ -261,10 +261,29 @@ Hero View on Homepage:
 
 Throughout the website I have used strategically placed call-to-action buttons which are designed to guide users to the contact form, which is positioned in the website footer. Using text such as "Find out more" and "Discover more" buttons encourages visitors to use the contact form, fostering engagement and conversion. These buttons feature a hover effect, so the colour of the button darkens when a user hovers or clicks on the button.
 
-Call-to-action button:
+Call-to-Action Button:
 
 ![Call-to-action button](assets/readme-images/call-to-action-button.png)
 
+### Favicon
+
+A custom favicon featuring the logo adds a professional touch to the website. This small but impactful visual element contributes to brand recognition, even when users have multiple tabs open.
+
+![Favicon](assets/readme-images/favicon.png)
+
+### Footer
+
+The
+
+### Social Media Integration
+
+Social media icons in the footer link to Facebook, Twitter, LinkedIn, and Instagram, with the code set to open new pages for each. This integration encourages visitors to connect with the brand on various platforms, fostering a broader online presence and community engagement. At the moment there are no social media pages for the business, so the links take users to the website homepages.
+
+### Contact Form
+
+The footer features a user-friendly contact form, inviting visitors to initiate direct communication. Fields for name, email, phone number, and a message ensure that potential clients can easily reach out, streamlining the enquiry process. There are call-to-actions buttons throughout the website pages which link to this contact form.
+
+![Contac-Form](assets/readme-images/contact-form.png)
 
 ## Homepage Features
 
