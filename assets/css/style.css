@@ -170,7 +170,6 @@ main {
 
 /*Website Hero Section*/
 #hero-image {
-    height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -840,7 +839,6 @@ footer {
         flex-direction: row;
         height: auto;
         font-size: 3rem;
-        color: #
     }
 
     /*Services Section*/
