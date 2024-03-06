@@ -268,6 +268,20 @@ Call-to-action button:
 
 ## Homepage Features
 
+### About Section
+
+The "About" section offers a personal touch, introducing me as a skilled copywriter. The combination of textual storytelling and visual elements, including a circlular image on smaller screens, creates a compelling narrative that resonates with visitors. This image is designed to disappear on screens above 768px wide, as other visual elements help to divide the sections of text. A call-to-action button is featured within this section, with both the small and larger screen views shown below:
+
+[About-section-homepage]
+
+### Services Section
+
+The "Services" section presents a visually appealing grid layout with enticing images and concise labels for each service. This design choice ensures that visitors can quickly understand the breadth of my services, and a transform effect has been added to each image to encourage users to click the image to be forwarded to the main services page.
+
+The grid is designed to adjust to varying screen sizes as show below:
+
+[services-grid-homepage]
+
 ## About Page Features
 
 ## Service Page Features
