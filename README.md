@@ -14,11 +14,34 @@ The live site can be viewed here - <a href="https://sophiemcgee.github.io/sophie
     * [**Target Audience**](<#target-audience>)
     * [**User Stories**](<#user-stories>)
     * [**Market Research**](<#market-research>)
+        * [Competitor Analysis](<#competitor-analysis>)
+        * [Pricing Requirements](<#pricing-requirements>)
+        * [Client Testimonials](<#client-testimonials>)
+        * [Streamlined Contact Process](<#streamlined-contact-process>)
 * [**Design**](<#design>)
     * [**Planning and Development**](<#planning-and-development>)
+        * [Strategy](<#strategy>)
+        * [Scope](<#scope>)
+        * [Structure](<#structure>)
+        * [Skeleton](<#skeleton>)
+        * [Surface](<#surface>)
     * [**Colour Scheme and Typography**](<#colour-scheme-and-typography>)
+        * [Typography](<#typography>)
+        * [Colour Scheme](<#colour-scheme>)
     * [**Website Logo**](<#website-logo>)
     * [**Final Wireframes**](<#final-wireframes>)
+* [**Features**](<#design>)
+    * [**Generic Website Features**](<#generic-website-features>)
+        * [Responsive Design](<#responsive-design>)
+        * [Clear Navigation](<#clear-navigation>)
+        * [Hero Section](<#hero-section>)
+        * [Call-to-Action Buttons](<#call-to-action-buttons>)
+        * [Favicon](<#favicon>)
+        * [Footer](<#Footer>)
+        * [Testimonials](<#testimonials>)
+    * [**Homepage Features**](<#homepage-features>)
+    * [**About Page Features**](<#about-page-features>)
+    * [**Service Page Features**](<#service-page-features>)
 
 
 # Website Objectives
@@ -96,7 +119,7 @@ Based on the target audience I have defined five possible user stories:
 
 Following the initial stages of user research for this website, comprehensive market research was conducted to not only understand the industry landscape but also to align the website with the preferences and expectations of my target clients who are looking for copywriting services on a casual, remote basis. A thorough examination of the copywriting industry provided insights into emerging trends, client preferences, and the evolving dynamics of gig-style platforms. Understanding the unique characteristics of this sector provided the insight needed to make design decisions based on the specific needs of the target clients. The following were the key areas of market research which will influence the design process:
 
-### 1. Competitor Analysis
+### Competitor Analysis
 
 An in-depth analysis of competitors in both traditional copywriting and gig-style platforms was undertaken. By evaluating their pricing structures, service offerings, and client engagement models, I sought to position this website as a streamlined alternative, delivering transparent and straightforward copywriting services.
 The competitor websites analysed were:
@@ -114,7 +137,7 @@ The competitor websites analysed were:
 * The website design will emphasise simplicity and clarity, offering a clean layout that makes it easy for users to view services, the process and clear pricing.
 * Visual elements will showcase these unique elements which will set this website apart from competitors.
 
-### 2. Pricing Requirements
+### Pricing Requirements
 
 Given the preference for simplicity and clarity in pricing, the website which stood out in my research were designed to provide clear and concise information about pricing. This clearly aligns with the expectations of clients who appreciate a straightforward process.
 
@@ -123,7 +146,7 @@ Given the preference for simplicity and clarity in pricing, the website which st
 * A dedicated section on both the homepage and services page on the website will clearly outline the pricing structure based on the number of words, providing transparency and facilitating easy budgeting for clients.
 * Visual elements, such as pricing tables will be incorporated for an intuitive understanding of the cost implications.
 
-### 3. Client Testimonials
+### Client Testimonials
 
 Examining client testimonials and feedback within competitors websites provided valuable insights into the expectations and experiences of clients seeking copywriting services. This feedback informed decisions on how to present client testimonials on the website to resonate with the target audience.
 
@@ -131,7 +154,7 @@ Examining client testimonials and feedback within competitors websites provided 
 
 * Testimonials from clients who I have worked with in the past will be strategically placed, emphasising the positive impact of my services.
 
-### 4. Streamlined Contact Process
+### Streamlined Contact Process
 
 My research found that target clients have a preference for efficiency, with the ideal website designs incorporating clear contact forms for submitting copywriting requests. This combined with quick turnarounds and a user-friendly interface cater to clients need for a straightforward and time-effective transaction process.
 
@@ -148,19 +171,19 @@ My research found that target clients have a preference for efficiency, with the
 
 During the development and planning phase of this website, attention to detail was paid to ensure a seamless and user-centric experience. The design process followed the five planes of UX—Strategy, Scope, Structure, Skeleton, and Surface—culminating in a website that I hope is visually appealing whilst also being intuitive, responsive, accessible.
 
-### Strategy: Defining Goals and Objectives
+### Strategy
 
 In the strategy phase, the primary focus was on defining a narrative that resonates with both current clients and target audiences as defined within the user types section. The website aims to showcase key services offered, alongside highlighting my experience through client testimonials. The overall goal is to craft a persuasive narrative that highlights the power of copywriting and positions my services as the solution to potential client’s content requirements.
 
-### Scope: Defining features and functionality
+### Scope
 
 With a clear strategy in place, the scope was defined to determine the features and functionality required for an optimal user experience. This included the creation of multiple pages—Home, About, and Services — each serving a specific purpose in providing comprehensive information about my skills and services. Features such as a responsive, mobile-first design were prioritised to enhance user engagement.
 
-### Structure: Information architecture and hierarchy
+### Structure
 
 The structure plane focused on organising and arranging content to optimise user understanding and guide them towards the step of contacting me for more information. A clear and logical information architecture was implemented, ensuring that visitors can easily navigate through the website. The hierarchy of information was carefully planned from the prominent display of key information in order of priority from the services offered to pricing and testimonials on the home page, including the addition of detailed about and services pages, which all contribute to a user-friendly structure whilst encouraging visitors to engage with my contact page.
 
-### Skeleton: Wireframing and prototyping
+### Skeleton
 
 The skeleton phase involved wireframing and prototyping within Figma based on the decisions made during the previous planes of design. I began by creating a rough design for the website's layout and functionality, attention was given to the placement of key elements, ensuring a clean and uncluttered design, in line with the information gained during the market research. This phase also considered responsive design principles, so that the website adapts seamlessly to various screen sizes and devices.
 
@@ -171,7 +194,7 @@ As you can see in the the wireframes below, I was able to determine the optimal 
 
 This wireframe is available to view in Figma via <a href="https://www.figma.com/file/AaC2sKTaflgVHGJ8yIfwwj/Sophie-McGee-Copywriter?type=whiteboard&t=HUMZ4smNbPEmjJDT-1" target="_blank" rel="noopener">THIS LINK.</a>
 
-### Surface: Visual design and branding
+### Surface
 
 The surface plane focused on the visual aspects of the website, emphasising a cohesive and visually appealing design. Consistent branding elements, including colour schemes and imagery, were carefully chosen and designed within Canva to create a professional and aesthetically pleasing user interface. Final styles can be seen in the sections below.
 
@@ -273,17 +296,27 @@ A custom favicon featuring the logo adds a professional touch to the website. Th
 
 ### Footer
 
-The
+The footer which features across all pages incorporates three key sections, the contact form, social media links and the website logo image. The logo image is designed to appear on screensizes above 996px wide as it fills a space in the footer design, when clicked the user is taken to the top of the main homepage to enhance user experience.
 
-### Social Media Integration
+![Footer-Logo-Positioning](assets/readme-images/footer-logo-positioning.png)
 
-Social media icons in the footer link to Facebook, Twitter, LinkedIn, and Instagram, with the code set to open new pages for each. This integration encourages visitors to connect with the brand on various platforms, fostering a broader online presence and community engagement. At the moment there are no social media pages for the business, so the links take users to the website homepages.
+#### Social Media Integration
 
-### Contact Form
+Social media icons from Font Awesome are included in the footer with links to Facebook, Twitter, LinkedIn, and Instagram, with the code set to open new pages for each. This integration encourages visitors to connect with the brand on various platforms, fostering a broader online presence and community engagement. At the moment there are no social media pages for the business, so the links take users to the various social media homepages.
+
+![Social-Media-Links](assets/readme-images/social-media-icons.png)
+
+#### Contact Form
 
 The footer features a user-friendly contact form, inviting visitors to initiate direct communication. Fields for name, email, phone number, and a message ensure that potential clients can easily reach out, streamlining the enquiry process. There are call-to-actions buttons throughout the website pages which link to this contact form.
 
-![Contac-Form](assets/readme-images/contact-form.png)
+![Contact-Form](assets/readme-images/contact-form.png)
+
+### Testimonials
+
+The testimonials section is featured on the main homepage, about page and services page with each page showcasing positive feedback from a satisfied client, adding credibility and building trust. Real-life testimonials offer potential clients insights into the quality of your work and the positive impact of my copywriting services.
+
+![Testimonials](assets/readme-images/testimonial.png)
 
 ## Homepage Features
 
@@ -291,15 +324,21 @@ The footer features a user-friendly contact form, inviting visitors to initiate 
 
 The "About" section offers a personal touch, introducing me as a skilled copywriter. The combination of textual storytelling and visual elements, including a circlular image on smaller screens, creates a compelling narrative that resonates with visitors. This image is designed to disappear on screens above 768px wide, as other visual elements help to divide the sections of text. A call-to-action button is featured within this section, with both the small and larger screen views shown below:
 
-[About-section-homepage]
+![About Section](assets/readme-images/about-section-homepage.png)
 
 ### Services Section
 
-The "Services" section presents a visually appealing grid layout with enticing images and concise labels for each service. This design choice ensures that visitors can quickly understand the breadth of my services, and a transform effect has been added to each image to encourage users to click the image to be forwarded to the main services page.
+The "Services" section features a compelling header and presents a visually appealing grid layout with enticing images and concise labels for each service, with a fully responsive design. This design choice ensures that visitors can quickly understand the breadth of my services, and a transform effect has been added to each image to encourage users to click the image to be forwarded to the main services section within the services page. The grid is designed to adjust to varying screen sizes as shown below:
 
-The grid is designed to adjust to varying screen sizes as show below:
+![Services Section](assets/readme-images/services-section-homepage.png)
 
-[services-grid-homepage]
+### Pricing Section
+
+The "Pricing" section provides transparent and straightforward options for clients. Three pricing tiers are outlined, featuring word count and corresponding costs. These options include 500 words for €30, 1000 words for €50, and Custom requests with Price on Application (POA). Brief descriptions accompany each pricing tier, ensuring clarity and enabling clients to make informed decisions. The grid layout enhances the simplicity of the section and is designed to adjust to suit varying screen sizes as shown below:
+
+![Pricing Section](assets/readme-images/pricing-section-homepage.png)
+
+
 
 ## About Page Features
 
