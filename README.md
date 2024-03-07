@@ -752,8 +752,63 @@ Manual testing:
 |7| User scrolls down the services page and is able to view pricing, the process and testimonials |Pass|
 |6| User is able to submit project briefs through the contact form |Pass|
 
+## Manual Testing of Features
+
+| Feature | Expected Result | Pass or Fail |
+|:----------|:------------|:------------:|
+|Website logo link in navigation menu and footer | Users click the lopo to be taken to the homepage |Pass|
+|Links in navigation menu | Users click home, about or services to be taken to the relevant page |Pass|
+|Burger navigation in screens below 768px wide | Menu appears and dropdown navigation items appear |Pass|
+|Hero section on all pages contains a call to action link | User is taken to the contact form in the website footer |Pass|
+|Homepage about section includes a link to the about page | User is taken to the about page |Pass|
+|Call-to-action sections on each page include a call to action link | User is taken to the contact form in the website footer |Pass|
+|Services grid on the homepage features a transform and hover effect | A cursor appears, image zooms and label darkens during hover/click |Pass|
+|Services grid on the homepage features a links to the services accordion section | When a user clicks an image or kabel the serrvices page accordion section opens |Pass|
+|Contact form within the footer allows messages to be submitted when correct information entered | The user is taken to the contact.html page |Pass|
+|The name section of the contact form is a required field| If the field is not filled out an error message appears and the form is not submitted |Pass|
+|The email section of the contact form is a required field and must be entered in the required format| If the field is not filled out an error message appears, or if the input is not in an email address format the form is not submitted |Pass|
+|The phone section of the contact form is a required field| If the field is not filled out an error message appears and the form is not submitted |Pass|
+|The message section of the contact form is a required field| If the field is not filled out an error message appears and the form is not submitted |Pass|
+|The social media links within the contact form| The user clicks and the relevant page is opened in a new tab |Pass|
+|The introduction section in the about page includes a call to action link | User is taken to the contact form in the website footer |Pass|
+|The introduction section in the services page includes a call to action link | User is taken to the contact form in the website footer |Pass|
+|The services page accordion displays information when clicked | When a section with a '+' symbol is clicked content appears below and a '-' symbol appears indicating click to close and closes when clicked |Pass|
 
 
 ## Bugs
 
+While developing and testing this project, I encountered a specific limitation related to the desired behaviour of linking images on the homepage directly to the relevant accordion sections. The initial intent was to allow users to click on images, leading them to the corresponding accordion section with automatic expansion. However, as the accordion is set to hide before being clicked within the javascript this was not possible. As an alternative, a link was introduced on the homepage, guiding users to the relevant accordion section. While this solution deviates from the initial idea of direct image-to-accordion interaction, it ensures accessibility and functionality for all users.
 
+# Credits
+
+The following sources were used as a guide for the code within this project:
+
+* Love Running – Code Institute Project
+    *Assisted with the building of the initial navigation menu, burger menu, social media icons in the footer, the contact form, and adding the hero image.
+* Code Institute Course Content
+    * Throught the project course content was referred to however, all code was adapted to include custom CSS styling, HTML, and overall content to align with the project's unique requirements.
+    
+* Converting Images to Black and White
+    * https://www.w3schools.com/howto/howto_css_image_bw.asp provided insights into converting images to black and white, contributing to the aesthetic appeal of the project.
+
+* Grid Layout for Services Section
+    * https://css-tricks.com/almanac/properties/g/grid-template-columns/ served as a valuable resource for adding a grid layout to the services section, with responsive adjustments for optimal user experience.
+
+* Accordion Feature for Services Page
+    * https://www.w3schools.com/howto/howto_js_accordion.asp provided a comprehensive guide for implementing the accordion feature on the services page. Additionally, the JavaScript code for the accordion was adapted from: https://www.w3schools.com/howto/howto_js_accordion.asp
+
+* Transition Effects for Services Grid Images
+    * https://www.w3schools.com/cssref/css3_pr_transition.php offered insights into CSS transition effects, enhancing the visual appeal and user experience within the services grid.
+
+* Display visually hidden burger menu to screen readers
+    * The code for the sr.only section of the CSS sheet was taken from: https://medium.com/web-accessibility-tips-tricks-and-techniques-for/web-accessibility-tip-visually-hidden-text-for-screen-readers-a52d954d9711#:~:text=sr%2Donly%20declaration%20block%20does,invisible%20to%20the%20human%20eye
+
+
+* All images within the website
+    * These were all sourced from the Canva website and are not copyrighted.
+
+* All website icons
+    * These were all sourced from the Font Awesome website
+
+* Montserrat font
+    * This was downloaded from Google Fonts.
