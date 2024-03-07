@@ -520,7 +520,7 @@ The following websites were used during the testing process to check for errors 
 
 The results were as follows:
 
-HTML Validation:
+### HTML Validation:
 
 * Homepage
 
@@ -562,14 +562,58 @@ The tool found an issue with a duplicated </p> within the email marketing sectio
 
 Final Test:
 
-![About HTML Final Test](assets/readme-images/html-final-about-test.png)
+![Services HTML Final Test](assets/readme-images/html-services-final-test.png)
+
+* 404 Page
+
+Inital Test:
+
+![404 Page HTML Test](assets/readme-images/404-page.png)
+
+Amendments:
+
+No issues were found.
+
+* Contact Page
+
+Inital Test:
+
+![Contact Page HTML Test](assets/readme-images/html-contact-test.png)
+
+Amendments:
+
+No issues were found.
+
+[Back to top](<#contents>
+
+### CSS Validation
+
+Inital Test:
+
+![Stylesheet CSS Test](assets/readme-images/css-validation.png)
+
+Amendments:
+
+No issues were found.
+
+[Back to top](<#contents>
 
 
 ## Responsivity Testing
 
-The 
+The pages within the website were tested for responsivity throughout the design process using Chrome Dev Tools. At the end of the project each page was tested using the <a href="http://www.responsinator.com" target="_blank" rel="noopener">Responsinator</a> website. The testing shows that all pages are responsive from 280pixels and upwards, within the Chrome, Firefox, Edge and Opera browsers. There  is no stretching, pixelation or horizontal scroll and all elements are positioned as outlined within the CSS stylesheet.
 
-* <a href="http://www.responsinator.com" target="_blank" rel="noopener">Responsinator</a>
+The results of all testing including the screen sizes tested are shown below:
+
+
+To test the responsiveness of a page within this website follow these steps:
+
+1. Open the website URL.
+2. Open the developer tools window.
+3. Set the zoom to 50% and choose the 'Responsive' tab.
+4. The screen width can be adjusted to various sizes to view how the page responds.
+
+
 
 ## Performance and Accessibility Testing
 
