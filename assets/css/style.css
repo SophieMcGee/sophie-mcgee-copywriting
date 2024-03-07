@@ -32,7 +32,7 @@ h1,
 h2 {
     color: #060606;
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 /*Button Styles*/
@@ -187,6 +187,7 @@ main {
     right: 10%;
     text-align: right;
     margin: 0;
+    font-size: 1.5rem;
     transform: translateY(-50%);
 }
 
