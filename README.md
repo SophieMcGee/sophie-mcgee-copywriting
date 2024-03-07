@@ -618,6 +618,7 @@ To test the responsiveness of a page within this website follow these steps:
 ## Performance Testing
 
 <a href="https://pagespeed.web.dev/" target="_blank" rel="noopener">PageSpeed Insights</a> was used to test several performance related areas including; performance, accessibility, best practices, SEO and progressive web app. The results are shown below for both mobile and desktop views.
+
 ### Homepage
 
 *Mobile View:
@@ -626,6 +627,7 @@ To test the responsiveness of a page within this website follow these steps:
 
 *Desktop View:
 
+![Homepage Performance Testing Desktop](assets/readme-images/pagespeed-homepage-desktop.png)
 
 
 ### About Page
@@ -643,10 +645,11 @@ To test the responsiveness of a page within this website follow these steps:
 
 *Mobile View:
 
-
+![Services Performance Testing Mobile](assets/readme-images/pagespeed-services-mobile.png)
 
 *Desktop View:
 
+![Services Performance Testing Desktop](assets/readme-images/pagespeed-services-desktop.png)
 
 
 ### 404 Page
@@ -663,11 +666,11 @@ To test the responsiveness of a page within this website follow these steps:
 
 *Mobile View:
 
-
+![Contact Page Performance Testing Mobile](assets/readme-images/pagespeed-contact-mobile.png)
 
 *Desktop View:
 
-
+![Contact Page Performance Testing Desktop ](assets/readme-images/pagespeed-contact-desktop.png)
 
 ## Testing of Website Functions
 
