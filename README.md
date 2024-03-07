@@ -614,6 +614,19 @@ To test the responsiveness of a page within this website follow these steps:
 3. Set the zoom to 50% and choose the 'Responsive' tab.
 4. The screen width can be adjusted to various sizes to view how the page responds.
 
+## Accessibility Testing
+
+Testing was completed throughout the project to ensure the following criteria were met:
+
+* Colour contrasts meet a minimum ratio requirement.
+* Heading levels are used to convey the importance of content and to provide a logical structure.
+* All content is contained within sections to ensure the websiite is accessible to those using assistive technology.
+* All images feature alternative text for screen readers.
+* The contact form features the associated labels, this ensures that form controls are properly labeled for screen reader 
+* HTML page language attributes of English have been set.
+
+An issue was identified with the use of hidden check boxes within the burger style navigation menu due to the property display: block;. This was solved by adding CSS code within the class named 'sr.only' to hide the element from normal visual rendering while still allowing its content to be accessible to screen readers.
+
 
 ## Performance Testing
 
