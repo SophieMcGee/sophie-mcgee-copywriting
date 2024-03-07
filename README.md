@@ -62,6 +62,12 @@ The live site can be viewed here - <a href="https://sophiemcgee.github.io/sophie
     * [**Opening the repository**](<#opening-the-repository>)
     * [**Forking the repository**](<#forking-the-repository>)
     * [**Cloning the repository**](<#cloning-the-repository>)
+* [**Testing**](<#testing>)
+    * [**Validator Testing**](<#validator-testing>)
+        * [HTML Validation](<#html-validation>)
+        * [Content Request Form](<#content-request-form>)
+    * [**Forking the repository**](<#forking-the-repository>)
+    * [**Cloning the repository**](<#cloning-the-repository>)
 
 
 # Website Objectives
@@ -455,7 +461,7 @@ A blog page will feature regular updates on projects, industry developments and 
     * This coding language was used to provide the foundation of the website’s structure and content.
 * CSS
     * To provide styling to enhance the visual appearance and user experience custom CSS was applied via an external file.
-*Javascript
+* Javascript
     * Javascript code was used within the accordion section of the services page to provide the button functionality.
 * Gitpod
     * This IDE was used during the coding and project management phase.
@@ -522,7 +528,7 @@ The results were as follows:
 
 ### HTML Validation:
 
-* Homepage
+#### Homepage
 
 Inital Test:
 
@@ -530,13 +536,13 @@ Inital Test:
 
 Amendments:
 
-The tool recommended adding a heading to the testimonials section, which in this case is not neccessary. The issue has been fixed by changing the <section> to a <div>.
+The tool recommended adding a heading to the testimonials section, which in this case is not neccessary. The issue has been fixed by changing the section to a div.
 
 Final Test:
 
 ![Homepage HTML Final Test](assets/readme-images/html-final-test-homepage.png)
 
-* About Page
+#### About Page
 
 Inital Test:
 
@@ -550,7 +556,7 @@ Final Test:
 
 ![About HTML Final Test](assets/readme-images/html-final-about-test.png)
 
-* Services Page
+#### Services Page
 
 Inital Test:
 
@@ -564,7 +570,7 @@ Final Test:
 
 ![Services HTML Final Test](assets/readme-images/html-services-final-test.png)
 
-* 404 Page
+#### 404 Page
 
 Inital Test:
 
@@ -574,7 +580,7 @@ Amendments:
 
 No issues were found.
 
-* Contact Page
+#### Contact Page
 
 Inital Test:
 
@@ -812,3 +818,10 @@ The following sources were used as a guide for the code within this project:
 
 * Montserrat font
     * This was downloaded from Google Fonts.
+
+* Website Favicon
+    * Favicon.io wasa used to create the website favicon.
+
+# Acknowledgements
+
+My mentor Gareth for all his help, feedback and advice and the peers within my course who helped with checking website functionality.
