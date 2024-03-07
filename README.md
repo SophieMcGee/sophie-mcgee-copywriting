@@ -662,49 +662,49 @@ An issue was identified with the use of hidden check boxes within the burger sty
 
 ![Homepage Performance Testing Mobile](assets/readme-images/lighthouse-homepage-mobile.png)
 
-*Desktop View:
+<b>*Desktop View:</b>
 
 ![Homepage Performance Testing Desktop](assets/readme-images/pagespeed-homepage-desktop.png)
 
 
 ### About Page
 
-*Mobile View:
+<b>*Mobile View:</b>
 
 ![About Performance Testing Mobile](assets/readme-images/pagespeed-about-mobile.png)
 
-*Desktop View:
+<b>*Desktop View:</b>
 
 ![About Performance Testing Desktop](assets/readme-images/pagespeed-about-desktop.png)
 
 
 ### Services Page
 
-*Mobile View:
+<b>*Mobile View:</b>
 
 ![Services Performance Testing Mobile](assets/readme-images/pagespeed-services-mobile.png)
 
-*Desktop View:
+<b>*Desktop View:</b>
 
 ![Services Performance Testing Desktop](assets/readme-images/pagespeed-services-desktop.png)
 
 ### 404 Page
 
-*Mobile View:
+<b>*Mobile View:</b>
 
 ![404 Page Performance Testing Mobile](assets/readme-images/pagespeed-404-mobile.png)
 
-*Desktop View:
+<b>*Desktop View:</b>
 
 ![404 Page Performance Testing Desktop](assets/readme-images/pagespeed-404-desktop.png)
 
 ### Contact Page
 
-*Mobile View:
+<b>*Mobile View:</b>
 
 ![Contact Page Performance Testing Mobile](assets/readme-images/pagespeed-contact-mobile.png)
 
-*Desktop View:
+<b>*Desktop View:</b>
 
 ![Contact Page Performance Testing Desktop ](assets/readme-images/pagespeed-contact-desktop.png)
 
