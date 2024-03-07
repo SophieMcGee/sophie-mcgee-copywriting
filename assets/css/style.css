@@ -178,6 +178,7 @@ main {
 
 #hero-image img {
     width: 110%;
+    max-height: 500px;
     object-fit: cover;
     object-position: center top;
 }
