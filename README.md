@@ -601,10 +601,11 @@ No issues were found.
 
 ## Responsivity Testing
 
-The pages within the website were tested for responsivity throughout the design process using Chrome Dev Tools. At the end of the project each page was tested using the <a href="http://www.responsinator.com" target="_blank" rel="noopener">Responsinator</a> website. The testing shows that all pages are responsive from 280pixels and upwards, within the Chrome, Firefox, Edge and Opera browsers. There  is no stretching, pixelation or horizontal scroll and all elements are positioned as outlined within the CSS stylesheet.
+The pages within the website were tested for responsivity throughout the design process using Chrome Dev Tools. At the end of the project each page was tested using the <a href="http://www.responsinator.com" target="_blank" rel="noopener">Responsinator</a> website. The testing shows that all pages are responsive from 280 pixels and upwards, within the Chrome, Firefox, Edge and Opera browsers. There  is no stretching, pixelation or horizontal scroll and all elements are positioned as outlined within the CSS stylesheet.
 
 The results of all testing including the screen sizes tested are shown below:
 
+![Responsivity Testing](assets/readme-images/responsivity-testing.png)
 
 To test the responsiveness of a page within this website follow these steps:
 
@@ -614,10 +615,59 @@ To test the responsiveness of a page within this website follow these steps:
 4. The screen width can be adjusted to various sizes to view how the page responds.
 
 
+## Performance Testing
 
-## Performance and Accessibility Testing
+<a href="https://pagespeed.web.dev/" target="_blank" rel="noopener">PageSpeed Insights</a> was used to test several performance related areas including; performance, accessibility, best practices, SEO and progressive web app. The results are shown below for both mobile and desktop views.
+### Homepage
 
-* <a href="https://pagespeed.web.dev/" target="_blank" rel="noopener">PageSpeed Insights</a>
+*Mobile View:
+
+![Homepage Performance Testing Mobile](assets/readme-images/lighthouse-homepage-mobile.png)
+
+*Desktop View:
+
+
+
+### About Page
+
+*Mobile View:
+
+![About Performance Testing Mobile](assets/readme-images/pagespeed-about-mobile.png)
+
+*Desktop View:
+
+![About Performance Testing Desktop](assets/readme-images/pagespeed-about-desktop.png)
+
+
+### Services Page
+
+*Mobile View:
+
+
+
+*Desktop View:
+
+
+
+### 404 Page
+
+*Mobile View:
+
+)
+
+*Desktop View:
+
+
+
+### Contact Page
+
+*Mobile View:
+
+
+
+*Desktop View:
+
+
 
 ## Testing of Website Functions
 
