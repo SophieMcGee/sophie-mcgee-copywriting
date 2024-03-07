@@ -601,7 +601,7 @@ No issues were found.
 
 ## Responsivity Testing
 
-The pages within the website were tested for responsivity throughout the design process using Chrome Dev Tools. At the end of the project each page was tested using the <a href="http://www.responsinator.com" target="_blank" rel="noopener">Responsinator</a> website. The testing shows that all pages are responsive from 280 pixels and upwards, within the Chrome, Firefox, Edge and Opera browsers. There  is no stretching, pixelation or horizontal scroll and all elements are positioned as outlined within the CSS stylesheet.
+The pages within the website were tested for responsivity throughout the design process using Chrome Dev Tools. At the end of the project each page was tested using the <a href="http://www.responsinator.com" target="_blank" rel="noopener">Responsinator</a> website. The testing shows that all pages are responsive from 280 pixels and upwards, within the Chrome, Firefox and Edge. There  is no stretching, pixelation or horizontal scroll and all elements are positioned as outlined within the CSS stylesheet.
 
 The results of all testing including the screen sizes tested are shown below:
 
