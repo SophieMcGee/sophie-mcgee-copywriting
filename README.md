@@ -113,12 +113,12 @@ Based on the target audience I have defined five possible user stories:
 * As a marketing manager leading a campaign, I want to easily find a copywriting services section that details how the copywriter can contribute to our marketing efforts.
 * Clear pricing structures will enable me to estimate costs and align them with our campaign budget.
 * A streamlined process for submitting project details and requesting quotes will save time and simplify the engagement process.
-* Integration with project management tools or communication platforms would be beneficial for efficient collaboration between our marketing team and the copywriter.
 
 ### 3. Content Managers and Editors - searching for high-quality website content:
 
 * As a content manager responsible for website content, I need a user-friendly interface to specify content requirements.
-* Clear communication channels, such as chat support or a dedicated contact form, will facilitate quick queries or clarifications during the content creation process.
+* I need to be sure the writer has excellent experience.
+* Clear communication channels, such as a dedicated contact form, will facilitate quick queries or clarifications during the content creation process.
 
 ### 4. E-Commerce Platforms - wanting to enhance product descriptions and sales copy:
 
@@ -672,7 +672,74 @@ To test the responsiveness of a page within this website follow these steps:
 
 ![Contact Page Performance Testing Desktop ](assets/readme-images/pagespeed-contact-desktop.png)
 
-## Testing of Website Functions
+
+I am happy with the various scores, however future improvements will be made to improve the performance scores by completing the following changes:
+
+* Images will be further reduced in size
+* A specific height and width will be added to all images to reduce the layout shifts during loading
+* Any font formatting which is not being used will be removed from the CSS stylesheet
+
+## Testing of User Stories
+
+> User story 1 - _"I am a small business owener and I want to explore copywriting services, pricing, testimonials and clear call to actions to find out more."_
+
+Manual testing:
+
+| User Step | Description | Pass or Fail |
+|:----------|:------------|:------------:|
+|1| User opens homepage |Pass|
+|2| User scrolls to the services section and views the range of services available |Pass|
+|3| User clicks the relevant service and is taken to the services page accordion to view more information |Pass|
+|4| User scrolls down the services page and is able to view pricing, the process and testimonials |Pass|
+|5| User is able to submit a contact form request for more information |Pass|
+
+> User story 2 - _"I am a marketing manager and I am looking for a copywriting partner for campaign support, I want to browse services, view pricing and be able to submit project details/request a quote"_
+
+Manual testing:
+| User Step | Description | Pass or Fail |
+|:----------|:------------|:------------:|
+|1| User opens homepage |Pass|
+|2| User opens the services page via the navigation menu |Pass|
+|3| User scrolls to the services section and views the range of services available |Pass|
+|4| User clicks the relevant service accordian to view more information |Pass|
+|5| User scrolls down the services page and is able to view pricing, the process and testimonials |Pass|
+|6| User is able to submit project details or request a quote through the contact form |Pass|
+
+> User story 3 - _"I am a content manager searching for a copywriter who produces high-quality content. I want to learn more about the writers experience and access clear communication channels"_
+
+| User Step | Description | Pass or Fail |
+|:----------|:------------|:------------:|
+|1| User opens homepage |Pass|
+|2| User opens the about page via the navigation menu |Pass|
+|3| User scrolls to the about introduction section and reads more about prior experience |Pass|
+|4| User scrolls down the page and views the reasons to work section and testimonials |Pass|
+|5| User is able to access simple communication channels via the contact form or social media links |Pass|
+
+
+> User story 4 - _"I'm an eCommerce business owner and I want a quick, simple and cost-effective way of ordering content for product descriptions?"_
+
+| User Step | Description | Pass or Fail |
+|:----------|:------------|:------------:|
+|1| User opens homepage |Pass|
+|2| User scrolls down the page and views the services and pricing section |Pass|
+|3| User clicks the call-to-action button and is taken to the contact form to quickly request a quote |Pass|
+
+
+> User story 5 - _"I run a marketing agency and I need copywriters to work on client campaigns, I want to understand the writers experience, services, flexibility and the ease of submitting briefs"_
+
+Manual testing:
+| User Step | Description | Pass or Fail |
+|:----------|:------------|:------------:|
+|1| User opens homepage |Pass|
+|2| User opens the about page via the navigation menu |Pass|
+|3| User scrolls to the about introduction section and reads more about prior experience |Pass|
+|4| User opens the services page via the navigation menu |Pass|
+|5| User scrolls to the services section and views the range of services available |Pass|
+|6| User clicks the relevant service accordian to view more information |Pass|
+|7| User scrolls down the services page and is able to view pricing, the process and testimonials |Pass|
+|6| User is able to submit project briefs through the contact form |Pass|
+
+
 
 ## Bugs
 
