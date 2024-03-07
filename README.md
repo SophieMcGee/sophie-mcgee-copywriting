@@ -65,9 +65,15 @@ The live site can be viewed here - <a href="https://sophiemcgee.github.io/sophie
 * [**Testing**](<#testing>)
     * [**Validator Testing**](<#validator-testing>)
         * [HTML Validation](<#html-validation>)
-        * [Content Request Form](<#content-request-form>)
-    * [**Forking the repository**](<#forking-the-repository>)
-    * [**Cloning the repository**](<#cloning-the-repository>)
+        * [CSS Validation](<#css-validation>)
+    * [**Responsivity Testing**](<#responsivity-testing>)
+    * [**Accessibility Testing**](<#accessibility-testing>)
+    * [**Performance Testing**](<#performance-testing>)
+    * [**Testing of User Stories**](<#testing-of-user-stories>)
+    * [**Manual Testing of Features**](<#manual-testing-of-features>)
+    * [**Bugs**](<#bugs>)
+* [**Credits**](<#credits>)
+* [**Acknowledgements**](<#acknowledgements>)
 
 
 # Website Objectives
@@ -469,9 +475,9 @@ A blog page will feature regular updates on projects, industry developments and 
     * All code was pushed to Github which is used to host the projects code.
 * Canva
     * This online design tool was used to design the website logo, to source images, to compare and find the font and to choose colours for the overall colour scheme.
-*Favicon.io
+* Favicon.io
     * The favicon was created for this website
-*Figma
+* Figma
     * Both the initial basic wireframes and the final wireframe designs were built using Figma.
 *Tinypng
     * This website was used to reduce file size through compression for images throughout the website. They were also changed to a .webp format where possible to improve performance.
@@ -550,7 +556,7 @@ Inital Test:
 
 Amendments:
 
-The tool found an issue within the reasons section where <br> elements were used as children of a <ul> element, the issue has been fixed by removing these elements and adding a margin to the icon instead. In addition the tool recommended adding a heading to the testimonials section, which in this case is not neccessary. The issue has been fixed by changing the <section> to a <div>.
+The tool found an issue within the reasons section where link break elements were used as children of an unordered list element, the issue has been fixed by removing these elements and adding a margin to the icon instead. In addition the tool recommended adding a heading to the testimonials section, which in this case is not neccessary. The issue has been fixed by changing the section to a div.
 
 Final Test:
 
@@ -564,7 +570,7 @@ Inital Test:
 
 Amendments:
 
-The tool found an issue with a duplicated </p> within the email marketing section of the services accordion, this has been fixed by removing the duplication. The next issues related to recommendations for heading tags within sections, however this was not relevant and the code has been fixed by changing the <section> element to <div> elements.
+The tool found an issue with a duplicated </p> within the email marketing section of the services accordion, this has been fixed by removing the duplication. The next issues related to recommendations for heading tags within sections, however this was not relevant and the code has been fixed by changing the section element to div elements.
 
 Final Test:
 
