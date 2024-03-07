@@ -111,37 +111,47 @@ Following market research and through my own prior knowledge of my business seve
 
 Based on the target audience I have defined five possible user stories:
 
-### 1. Small Business Owners, Startups, and Entrepreneurs - exploring services for an established business or a new venture:
+<details><summary><b> 1. Small Business Owners, Startups, and Entrepreneurs - exploring services for an established business or a new venture</b></summary>
 
 * As a small business owner, I want to easily navigate the website to explore the variety of copywriting services available.
 * I expect to find clear and concise information about pricing based on word count, allowing me to budget effectively for my initial content needs.
 * The website should showcase testimonials, helping me understand how the copywriter can tailor their services to meet the unique needs of my business.
 * Clear calls-to-action for enquiries or quotes will facilitate a quick and straightforward engagement process.
 
-### 2. Marketing Managers and their Teams - seeking a partner for marketing campaigns:
+</details><hr>
+
+<details><summary><b>2. Marketing Managers and their Teams - seeking a partner for marketing campaigns</b></summary>
 
 * As a marketing manager leading a campaign, I want to easily find a copywriting services section that details how the copywriter can contribute to our marketing efforts.
 * Clear pricing structures will enable me to estimate costs and align them with our campaign budget.
 * A streamlined process for submitting project details and requesting quotes will save time and simplify the engagement process.
 
-### 3. Content Managers and Editors - searching for high-quality website content:
+</details><hr>
+
+<details><summary><b>3. Content Managers and Editors - searching for high-quality website content</b></summary>
 
 * As a content manager responsible for website content, I need a user-friendly interface to specify content requirements.
 * I need to be sure the writer has excellent experience.
 * Clear communication channels, such as a dedicated contact form, will facilitate quick queries or clarifications during the content creation process.
 
-### 4. E-Commerce Platforms - wanting to enhance product descriptions and sales copy:
+</details><hr>
+
+<details><summary><b>4. E-Commerce Platforms - wanting to enhance product descriptions and sales copy</b></summary>
 
 * As an e-commerce platform owner, I want to explore a dedicated services section highlighting the key details relating to product descriptions.
 * Clear pricing structures for product descriptions will help in estimating costs for enhancing our product pages.
 * Fast turnaround times and a straightforward engagement process will be crucial for keeping our product content up-to-date and engaging.
 
-### 5. Marketing Agencies - searching for copywriters to collaborate with on client campaigns:
+</details><hr>
+
+<details><summary><b>5. Marketing Agencies - searching for copywriters to collaborate with on client campaigns</b></summary>
 
 * As a marketing agency seeking collaboration, I need a comprehensive overview of the copywriter's capabilities, experience and service offerings on the website.
 * The website should provide flexibility in terms of tailored copywriting solutions that can be seamlessly integrated into our broader marketing strategies.
 * Pricing structures should accommodate one-off and ongoing projects, allowing us to scale copywriting services for various client campaigns.
 * A user-friendly interface for submitting detailed project briefs will enhance collaboration efficiency.
+
+</details><hr>
 
 [Back to top](<#contents>)
 
@@ -221,7 +231,7 @@ As you can see in the the wireframes below, I was able to determine the optimal 
 
 ![Basic website wireframe built in Figma](assets/readme-images/basic-wireframes.png)
 
-This wireframe is available to view in Figma via <a href="https://www.figma.com/file/AaC2sKTaflgVHGJ8yIfwwj/Sophie-McGee-Copywriter?type=whiteboard&t=HUMZ4smNbPEmjJDT-1" target="_blank" rel="noopener">THIS LINK.</a>
+<b>This wireframe is available to view in Figma via <a href="https://www.figma.com/file/AaC2sKTaflgVHGJ8yIfwwj/Sophie-McGee-Copywriter?type=whiteboard&t=HUMZ4smNbPEmjJDT-1" target="_blank" rel="noopener">THIS LINK.</a></b>
 
 ### Surface
 
@@ -277,7 +287,7 @@ I believe that attention to detail in the surface design stage contributes to a 
 
 ![final wireframe design](assets/readme-images/wireframe-final-design.png)
 
-The final website wireframe design is available to view in Figma via <a href="https://www.figma.com/file/dP3mcDa6YHL56k4QnIUwAD/Sophie-McGee-Copywriting-Homepage-Desktop-Design?type=design&node-id=0%3A1&mode=design&t=7bPvVV6uK0r9t8WO-1" target="_blank" rel="noopener">THIS LINK.</a>
+<b>The final website wireframe design is available to view in Figma via <a href="https://www.figma.com/file/dP3mcDa6YHL56k4QnIUwAD/Sophie-McGee-Copywriting-Homepage-Desktop-Design?type=design&node-id=0%3A1&mode=design&t=7bPvVV6uK0r9t8WO-1" target="_blank" rel="noopener">THIS LINK.</a></b>
 
 As you can see from the wireframes, the structure of the website features three pages, the homepage, an about page and a services page. The design and overall structure was built based on the research outlined above.
 
@@ -480,9 +490,9 @@ A blog page will feature regular updates on projects, industry developments and 
     * Both the initial basic wireframes and the final wireframe designs were built using Figma.
 * Tinypng
     * This website was used to reduce file size through compression for images throughout the website. They were also changed to a .webp format where possible to improve performance.
-*Font Awesome
+* Font Awesome
     * The icons used throughout the website were sourced and downloaded from the Font Awesome website.
-*Google Fonts
+* Google Fonts
     * The Montserrat font used throughout the website was added to the CSS stylesheet via the Google Fonts website.
 
 [Back to top](<#contents>)
@@ -569,7 +579,7 @@ Inital Test:
 
 Amendments:
 
-The tool found an issue with a duplicated </p> within the email marketing section of the services accordion, this has been fixed by removing the duplication. The next issues related to recommendations for heading tags within sections, however this was not relevant and the code has been fixed by changing the section element to div elements.
+The tool found an issue with a duplicated paragraph element within the email marketing section of the services accordion, this has been fixed by removing the duplication. The next issues related to recommendations for heading tags within sections, however this was not relevant and the code has been fixed by changing the section element to div elements.
 
 Final Test:
 
@@ -644,7 +654,7 @@ An issue was identified with the use of hidden check boxes within the burger sty
 
 ## Performance Testing
 
-<a href="https://pagespeed.web.dev/" target="_blank" rel="noopener">PageSpeed Insights</a> was used to test several performance related areas including; performance, accessibility, best practices, SEO and progressive web app. The results are shown below for both mobile and desktop views.
+<a href="https://pagespeed.web.dev/" target="_blank" rel="noopener">PageSpeed Insights</a> was used to test several performance related areas including; performance, accessibility, best practices, SEO and progressive web app. The results are shown below for both mobile and desktop views. I also used Lighthouse during the testing process, however issues with internet connectivity speeds were causing problems with providing accurate performance metrics, so final testing was completed with PageSpeed Insights.
 
 ### Homepage
 
