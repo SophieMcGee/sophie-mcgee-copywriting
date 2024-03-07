@@ -80,13 +80,11 @@ The live site can be viewed here - <a href="https://sophiemcgee.github.io/sophie
 
 The primary purpose is to advertise my range of services and to show my proficiency in various forms of copywriting. Whether potential clients are searching for captivating storytelling, persuasive marketing copy, or informative blog posts, they can explore my services to find the right fit for their content needs.
 
-
 [Back to top](<#contents>)
 
 # User Experience (UX)
 
 ## Client Background and Goals
-
 
 As the website will be used to promote my own services, in this situation I am the client. I hold a degree in marketing and have more than 10 years of experience working as a marketing manager alongside providing copywriting services. In the past I have offered my services through gig-style platforms that are popular with freelancers, and I have also benefitted from client referrals. The goals for this website are:
 
@@ -218,7 +216,6 @@ The structure plane focused on organising and arranging content to optimise user
 ### Skeleton
 
 The skeleton phase involved wireframing and prototyping within Figma based on the decisions made during the previous planes of design. I began by creating a rough design for the website's layout and functionality, attention was given to the placement of key elements, ensuring a clean and uncluttered design, in line with the information gained during the market research. This phase also considered responsive design principles, so that the website adapts seamlessly to various screen sizes and devices.
-
 
 As you can see in the the wireframes below, I was able to determine the optimal arrangement of features for a seamless user experience. The templates show the initial design ideas for three pages, the homepage, about page and services page, with each page having a desktop, tablet and mobile view planned. Within the designs I incorporated areas such as a simple navigation menu, call-to-action buttons, clear content hierarchy, text and images for visual storytelling and forms which serve the purposes of the various user types.
 
@@ -461,6 +458,8 @@ A fully integrated client dashboard will provide clients with the ability to tra
 
 A blog page will feature regular updates on projects, industry developments and useful copywriting tips. This will provide potential clients with extra information whilst also helping to build relationships.
 
+[Back to top](<#contents>)
+
 # Technologies Used
 
 * HTML
@@ -479,7 +478,7 @@ A blog page will feature regular updates on projects, industry developments and 
     * The favicon was created for this website
 * Figma
     * Both the initial basic wireframes and the final wireframe designs were built using Figma.
-*Tinypng
+* Tinypng
     * This website was used to reduce file size through compression for images throughout the website. They were also changed to a .webp format where possible to improve performance.
 *Font Awesome
     * The icons used throughout the website were sourced and downloaded from the Font Awesome website.
@@ -596,7 +595,7 @@ Amendments:
 
 No issues were found.
 
-[Back to top](<#contents>
+[Back to top](<#contents>)
 
 ### CSS Validation
 
@@ -608,7 +607,7 @@ Amendments:
 
 No issues were found.
 
-[Back to top](<#contents>
+[Back to top](<#contents>)
 
 
 ## Responsivity Testing
@@ -626,6 +625,8 @@ To test the responsiveness of a page within this website follow these steps:
 3. Set the zoom to 50% and choose the 'Responsive' tab.
 4. The screen width can be adjusted to various sizes to view how the page responds.
 
+[Back to top](<#contents>)
+
 ## Accessibility Testing
 
 Testing was completed throughout the project to ensure the following criteria were met:
@@ -639,6 +640,7 @@ Testing was completed throughout the project to ensure the following criteria we
 
 An issue was identified with the use of hidden check boxes within the burger style navigation menu due to the property display: block;. This was solved by adding CSS code within the class named 'sr.only' to hide the element from normal visual rendering while still allowing its content to be accessible to screen readers.
 
+[Back to top](<#contents>)
 
 ## Performance Testing
 
@@ -676,7 +678,6 @@ An issue was identified with the use of hidden check boxes within the burger sty
 
 ![Services Performance Testing Desktop](assets/readme-images/pagespeed-services-desktop.png)
 
-
 ### 404 Page
 
 *Mobile View:
@@ -697,12 +698,13 @@ An issue was identified with the use of hidden check boxes within the burger sty
 
 ![Contact Page Performance Testing Desktop ](assets/readme-images/pagespeed-contact-desktop.png)
 
-
-I am happy with the various scores, however future improvements will be made to improve the performance scores by completing the following changes:
+I am happy with the various scores, however future improvements will be made to increase the performance scores by completing the following changes:
 
 * Images will be further reduced in size
 * A specific height and width will be added to all images to reduce the layout shifts during loading
 * Any font formatting which is not being used will be removed from the CSS stylesheet
+
+[Back to top](<#contents>)
 
 ## Testing of User Stories
 
@@ -749,7 +751,6 @@ Manual testing:
 |2| User scrolls down the page and views the services and pricing section |Pass|
 |3| User clicks the call-to-action button and is taken to the contact form to quickly request a quote |Pass|
 
-
 > User story 5 - _"I run a marketing agency and I need copywriters to work on client campaigns, I want to understand the writers experience, services, flexibility and the ease of submitting briefs"_
 
 Manual testing:
@@ -763,6 +764,8 @@ Manual testing:
 |6| User clicks the relevant service accordian to view more information |Pass|
 |7| User scrolls down the services page and is able to view pricing, the process and testimonials |Pass|
 |6| User is able to submit project briefs through the contact form |Pass|
+
+[Back to top](<#contents>)
 
 ## Manual Testing of Features
 
@@ -786,10 +789,13 @@ Manual testing:
 |The introduction section in the services page includes a call to action link | User is taken to the contact form in the website footer |Pass|
 |The services page accordion displays information when clicked | When a section with a '+' symbol is clicked content appears below and a '-' symbol appears indicating click to close and closes when clicked |Pass|
 
+[Back to top](<#contents>)
 
 ## Bugs
 
 While developing and testing this project, I encountered a specific limitation related to the desired behaviour of linking images on the homepage directly to the relevant accordion sections. The initial intent was to allow users to click on images, leading them to the corresponding accordion section with automatic expansion. However, as the accordion is set to hide before being clicked within the javascript this was not possible. As an alternative, a link was introduced on the homepage, guiding users to the relevant accordion section. While this solution deviates from the initial idea of direct image-to-accordion interaction, it ensures accessibility and functionality for all users.
+
+[Back to top](<#contents>)
 
 # Credits
 
@@ -815,7 +821,6 @@ The following sources were used as a guide for the code within this project:
 * Display visually hidden burger menu to screen readers
     * The code for the sr.only section of the CSS sheet was taken from: https://medium.com/web-accessibility-tips-tricks-and-techniques-for/web-accessibility-tip-visually-hidden-text-for-screen-readers-a52d954d9711#:~:text=sr%2Donly%20declaration%20block%20does,invisible%20to%20the%20human%20eye
 
-
 * All images within the website
     * These were all sourced from the Canva website and are not copyrighted.
 
@@ -831,3 +836,5 @@ The following sources were used as a guide for the code within this project:
 # Acknowledgements
 
 My mentor Gareth for all his help, feedback and advice and the peers within my course who helped with checking website functionality.
+
+[Back to top](<#contents>)
