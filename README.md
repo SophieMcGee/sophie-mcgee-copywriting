@@ -653,11 +653,11 @@ To test the responsiveness of a page within this website follow these steps:
 
 *Mobile View:
 
-)
+![404 Page Performance Testing Mobile](assets/readme-images/pagespeed-404-mobile.png)
 
 *Desktop View:
 
-
+![404 Page Performance Testing Desktop](assets/readme-images/pagespeed-404-desktop.png)
 
 ### Contact Page
 
