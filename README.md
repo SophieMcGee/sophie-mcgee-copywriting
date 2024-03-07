@@ -315,7 +315,7 @@ Mobile Navigation Bar:
 
 ### Hero Section
 
-The hero sections on each page are design to captivate visitors with a high-quality image paired with compelling copy. This impactful combination immediately communicates the overall brand identity and encourages users to explore further with a call-to-action button.
+The hero sections on each page are design to captivate visitors with a high-quality image paired with compelling copy. This impactful combination immediately communicates the overall brand identity and encourages users to explore further with a call-to-action button, which resizes for larger screens above 996px wide.
 
 Hero View on Homepage:
 
@@ -589,7 +589,7 @@ Final Test:
 
 Inital Test:
 
-![404 Page HTML Test](assets/readme-images/404-page.png)
+![404 Page HTML Test](assets/readme-images/html-404-test.png)
 
 Amendments:
 
@@ -658,7 +658,7 @@ An issue was identified with the use of hidden check boxes within the burger sty
 
 ### Homepage
 
-*Mobile View:
+<b>*Mobile View</b>
 
 ![Homepage Performance Testing Mobile](assets/readme-images/lighthouse-homepage-mobile.png)
 
